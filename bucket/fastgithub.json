@@ -1,15 +1,23 @@
 {
     "version": "2.1.1",
-    "description": "github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题",
+    "description": "github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题. ",
     "homepage": "https://github.com/dotnetcore/FastGithub",
     "license": "MIT",
-    "url": "https://github.com/dotnetcore/FastGithub/releases/download/2.1.1/fastgithub_win-x64.zip",
-    "hash": "9BE1F242AFC22E54978938F56EEDED64E91B9467A8C5A2F13DE3C79A56309E25",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dotnetcore/FastGithub/releases/download/2.1.1/fastgithub_win-x64.zip",
+            "hash": "9BE1F242AFC22E54978938F56EEDED64E91B9467A8C5A2F13DE3C79A56309E25"
+        }
+    },
     "extract_dir": "fastgithub_win-x64",
+    "bin": [
+        "fastgithub.exe",
+        "FastGithub.UI.exe"
+    ],
     "shortcuts": [
         [
-            "fastgithub.exe",
-            "fastgithub"
+            "FastGithub.UI.exe",
+            "FastGithub.UI"
         ]
     ],
     "persist": [
@@ -20,6 +28,10 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/dotnetcore/FastGithub/releases/download/$version/fastgithub_win-x64.zip",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dotnetcore/FastGithub/releases/download/$version/fastgithub_win-x64.zip"
+            }
+        }
     }
 }

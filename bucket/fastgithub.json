@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/dotnetcore/FastGithub/releases/download/2.1.1/fastgithub_win-x64.zip",
     "hash": "9BE1F242AFC22E54978938F56EEDED64E91B9467A8C5A2F13DE3C79A56309E25",
-    "extract_dir": "fastgithub_2.1.1",
+    "extract_dir": "fastgithub_win-x64",
     "shortcuts": [
         [
             "fastgithub.exe",
@@ -21,6 +21,5 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/dotnetcore/FastGithub/releases/download/$version/fastgithub_win-x64.zip",
-        "extract_dir": "fastgithub_$version"
     }
 }

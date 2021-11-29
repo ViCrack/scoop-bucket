@@ -22,7 +22,10 @@
         ]
     ],
     "uninstaller": {
-        "script": "sudo \"$dir\\fastgithub.exe\" stop"
+        "script": [
+            "sudo taskkill /F /IM 'FastGithub.UI.exe' /FI 'status eq running' | Out-Null",
+            "sudo \"$dir\\fastgithub.exe\" stop"
+        ]
     },
     "persist": [
         "appsettings",

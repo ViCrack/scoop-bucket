@@ -1,0 +1,49 @@
+{
+    "version": "1.8.2",
+    "description": " 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc ",
+    "homepage": "https://github.com/chaitin/xray",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/chaitin/xray/blob/master/Disclaimer.md"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/chaitin/xray/releases/download/1.8.2/xray_windows_386.exe.zip",
+            "hash": "CBF36F003FCD6FAA33AF35DF04E20A4E7C66FD3E6A63638EF36EB8955840FA17",
+            "pre_install": [
+                "Rename-Item \"$dir\\xray_windows_386.exe\" 'xray.exe'",
+                "if (!(Test-Path \"$dir\\ca.crt\")) {",
+                "    warn 'GenerateToFile CA certificate and key ...'",
+                "    Start-Process -NoNewWindow -FilePath \"$dir\\xray.exe\" -WorkingDirectory \"$dir\" -ArgumentList @('genca') -Wait | Out-Null ",
+                "}"
+            ]
+        },
+        "64bit": {
+            "url": "https://github.com/chaitin/xray/releases/download/1.8.2/xray_windows_amd64.exe.zip",
+            "hash": "ED8A3186B3FAE3480B15E698067235C66099A0034E6825D4680DDE3151BD5834",
+            "pre_install": [
+                "Rename-Item \"$dir\\xray_windows_amd64.exe\" 'xray.exe'",
+                "if (!(Test-Path \"$dir\\ca.crt\")) {",
+                "    warn 'GenerateToFile CA certificate and key ...'",
+                "    Start-Process -NoNewWindow -FilePath \"$dir\\xray.exe\" -WorkingDirectory \"$dir\" -ArgumentList @('genca') -Wait | Out-Null ",
+                "}"
+            ]
+        }
+    },
+    "bin": "xray.exe",
+    "persist": [
+        "ca.crt",
+        "ca.key"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/chaitin/xray/releases/download/$version/xray_windows_386.exe.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/chaitin/xray/releases/download/$version/xray_windows_amd64.exe.zip"
+            }
+        }
+    }
+}

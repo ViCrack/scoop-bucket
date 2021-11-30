@@ -11,6 +11,12 @@
         }
     },
     "extract_dir": "fastgithub_win-x64",
+    "uninstaller": {
+        "script": [
+            "sudo taskkill /F /IM 'FastGithub.UI.exe' /FI 'status eq running' | Out-Null",
+            "sudo \"$dir\\fastgithub.exe\" stop"
+        ]
+    },
     "bin": [
         "fastgithub.exe",
         "FastGithub.UI.exe"
@@ -21,12 +27,6 @@
             "FastGithub.UI"
         ]
     ],
-    "uninstaller": {
-        "script": [
-            "sudo taskkill /F /IM 'FastGithub.UI.exe' /FI 'status eq running' | Out-Null",
-            "sudo \"$dir\\fastgithub.exe\" stop"
-        ]
-    },
     "persist": [
         "appsettings",
         "cacert",

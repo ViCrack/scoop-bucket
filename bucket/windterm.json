@@ -9,14 +9,18 @@
     "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.2/WindTerm_2.2.2_Windows_Portable.zip",
     "hash": "9107cab40f6b447d8da98e4a19359661bbe988c645baf455d759ebd4351cc8a8",
     "extract_dir": "WindTerm_2.2.2",
+    "pre_install": [
+        "if ((Get-CimInstance Win32_OperatingSystem).BuildNumber -ge 18309) {\n",
+        "    Remove-Item \"$dir\\WindTerm.exe\"\n",
+        "    Rename-Item \"$dir\\WindTerm_Win10_Conpty.exe\" 'WindTerm.exe'\n",
+        "} else {\n",
+        "    Remove-Item \"$dir\\WindTerm_Win10_Conpty.exe\"\n",
+        "}"
+    ],
     "shortcuts": [
         [
             "WindTerm.exe",
             "WindTerm"
-        ],
-        [
-            "WindTerm_Win10_Conpty.exe",
-            "WindTerm for 19H1+"
         ]
     ],
     "persist": [

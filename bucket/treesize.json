@@ -6,14 +6,17 @@
     "url": "http://xz.w10a.com/small/TreesizePro.rar",
     "hash": "F01A6A40B6402E77B58CC4E70EFB034D5E68A368522B456CBC95C5A122BA182E",
     "extract_dir": "TreesizePro",
-    "installer": {
-        "script": [
-            "Expand-InnoArchive \"$dir\\Setup.exe\" -Removal",
-            "Remove-Item \"$dir\\*.url\" -Force",
-            "Move-Item \"$dir\\Crack\\TreeSize.exe\" \"$dir\\TreeSize.exe\" -Force",
-            "Remove-Item \"$dir\\Crack\" -Recurse"
-        ]
-    },
+    "pre_install": [
+        "Expand-InnoArchive \"$dir\\Setup.exe\" -Removal",
+        "Remove-Item \"$dir\\*.url\" -Force",
+        "Move-Item \"$dir\\Crack\\TreeSize.exe\" \"$dir\\TreeSize.exe\" -Force",
+        "Remove-Item \"$dir\\Crack\" -Recurse"
+    ],
+    "post_install": [
+        "if (Test-Path \"$env:APPDATA\\Roaming\\JAM Software\\TreeSize\") {",
+        "    Copy-Item -Path $env:APPDATA\\Roaming\\JAM Software\\TreeSize\\* -Destination \"$persist_dir\\data\" -PassThru",
+        "}"
+    ],
     "shortcuts": [
         [
             "TreeSize.exe",
@@ -29,5 +32,6 @@
             "TreeSize Duplicates Search",
             "/SEARCH /TABS DuplicatesSearch"
         ]
-    ]
+    ],
+    "persist": "data"
 }

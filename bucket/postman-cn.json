@@ -1,0 +1,39 @@
+{
+    "version": "9.6.0",
+    "description": "Postman中文版, Complete API development environment.",
+    "homepage": "https://github.com/hlmd/postman-cn",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.getpostman.com/licenses/postman_eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.pstmn.io/download/9.6.0/Postman-win64-9.6.0-full.nupkg#/dl.7z",
+            "hash": "sha1:EE9DFEF060B681E74E9831754E089B9C22E4CD9E"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "post_install": [
+        "dl_with_cache 'postman-cn' \"$version\" \"https://download.fastgit.org/hlmd/Postman-cn/releases/download/$version/app.zip\" \"$dir\\resources\\app.zip\" '' true",
+        "Expand-7zipArchive \"$dir\\resources\\app.zip\" \"$dir\\resources\" -Removal"
+    ],
+    "bin": "Postman.exe",
+    "shortcuts": [
+        [
+            "Postman.exe",
+            "Postman"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.pstmn.io/download/$version/Postman-win64-$version-full.nupkg#/dl.7z",
+                "hash": {
+                    "url": "https://dl.pstmn.io/RELEASES?platform=win64",
+                    "jsonpath": "$.releases[*].files[?(@.name=='$basename')].hash"
+                }
+            }
+        }
+    }
+}

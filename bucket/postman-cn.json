@@ -8,15 +8,18 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.pstmn.io/download/9.6.0/Postman-win64-9.6.0-full.nupkg#/dl.7z",
-            "hash": "sha1:EE9DFEF060B681E74E9831754E089B9C22E4CD9E"
+            "url": [
+                "https://dl.pstmn.io/download/9.6.0/Postman-win64-9.6.0-full.nupkg#/dl.7z",
+                "https://github.com/hlmd/Postman-cn/releases/download/9.6.0/app.zip"
+            ],
+            "hash": [
+                "65882803f432b89994e1d80fc4028bcf45929c8a01932ea5ba140407e3c213fe",
+                "3c0107d3e7aa50d96ab42daac30ed810b45007afe318ed78c104b5cb9610c344"
+            ]
         }
     },
     "extract_dir": "lib\\net45",
-    "post_install": [
-        "dl_with_cache $app $version \"https://download.fastgit.org/hlmd/Postman-cn/releases/download/$version/app.zip\" \"$dir\\resources\\app.zip\" '' true",
-        "Expand-7zipArchive \"$dir\\resources\\app.zip\" \"$dir\\resources\" -Removal"
-    ],
+    "post_install": "Move-Item \"$dir\\app\" \"$dir\\resources\" -Force",
     "bin": "Postman.exe",
     "shortcuts": [
         [
@@ -28,11 +31,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.pstmn.io/download/$version/Postman-win64-$version-full.nupkg#/dl.7z",
-                "hash": {
-                    "url": "https://dl.pstmn.io/RELEASES?platform=win64",
-                    "jsonpath": "$.releases[*].files[?(@.name=='$basename')].hash"
-                }
+                "url": [
+                    "https://dl.pstmn.io/download/$version/Postman-win64-$version-full.nupkg#/dl.7z",
+                    "https://github.com/hlmd/Postman-cn/releases/download/$version/app.zip"
+                ]
             }
         }
     }

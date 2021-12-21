@@ -14,7 +14,7 @@
     },
     "extract_dir": "lib\\net45",
     "post_install": [
-        "dl_with_cache 'postman-cn' \"$version\" \"https://download.fastgit.org/hlmd/Postman-cn/releases/download/$version/app.zip\" \"$dir\\resources\\app.zip\" '' true",
+        "dl_with_cache '$app $version \"https://download.fastgit.org/hlmd/Postman-cn/releases/download/$version/app.zip\" \"$dir\\resources\\app.zip\" '' true",
         "Expand-7zipArchive \"$dir\\resources\\app.zip\" \"$dir\\resources\" -Removal"
     ],
     "bin": "Postman.exe",

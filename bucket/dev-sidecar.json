@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh.api.99988866.xyz/https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version.exe#/dl.7z#/dl.7z"
+                "url": "https://gh.api.99988866.xyz/https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version.exe#/dl.7z"
             }
         }
     }

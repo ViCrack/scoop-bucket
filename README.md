@@ -50,3 +50,4 @@ scoop update vi/windterm
 | xray                          | 被动扫描器，一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc                                                         |
 | wub                           | 彻底关闭或者启用 Windowns 自动更新的工具(Windows Update Blocker)v1.6 中文版                                                       |
 | another-redis-desktop-manager | AnotherRedisDesktopManager, 更快、更好、更稳定的 Redis 桌面(GUI)管理客户端，兼容 Windows、Mac、Linux，性能出众，轻松加载海量键值. |
+| dev-sidecar                   | 开发者边车，github 打不开，github 加速，git clone 加速，git release 下载加速，stackoverflow 加速 .                                |

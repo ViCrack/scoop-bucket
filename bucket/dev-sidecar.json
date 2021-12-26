@@ -1,0 +1,30 @@
+{
+    "version": "1.7.2",
+    "description": "  开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速 .",
+    "homepage": "https://github.com/docmirror/dev-sidecar",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://gh.api.99988866.xyz/https://github.com/docmirror/dev-sidecar/releases/download/v1.7.2/DevSidecar-1.7.2.exe#/dl.7z",
+            "hash": "1a49ec13e4a411734523afcb78dbf43f9b9f7a275f85ef0d1b9138560530b695",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "dev-sidecar.exe",
+            "Dev Sidecar"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gh.api.99988866.xyz/https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version.exe#/dl.7z#/dl.7z"
+            }
+        }
+    }
+}

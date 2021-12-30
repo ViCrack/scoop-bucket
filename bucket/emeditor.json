@@ -25,7 +25,7 @@
         "eeCommon.ini",
         "eeConfig.ini",
         "eeLM.ini",
-        "eePlugins.ini"
+        "eePlugins.ini",
         "AppData"
     ],
     "pre_install": [

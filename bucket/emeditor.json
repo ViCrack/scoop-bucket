@@ -1,0 +1,50 @@
+{
+    "homepage": "https://www.emeditor.com/",
+    "version": "21.4.0",
+    "description": "EmEditor is a fast, lightweight, yet extensible, easy-to-use text editor for Windows.",
+    "license": "https://www.emeditor.com/#toggle-id-4",
+    "architecture": {
+        "64bit": {
+            "url": "https://emeditor.blob.core.windows.net/emed64_21.4.0_portable.zip",
+            "hash": "6643fee93576ab827933c545cbc90e0a47c95712bee61362e837837f83b9c4ba"
+        },
+        "32bit": {
+            "url": "https://emeditor.blob.core.windows.net/emed32_21.4.0_portable.zip",
+            "hash": "e0a6e265edd03506750d15db57f1ae7ea4f87030828592ac187b974808872a52"
+        }
+    },
+    "notes": "Xue Xi Ma: DMAZM-WHY52-AX222-ZQJXN-79JXH, 添加右键菜单: 打开顶部菜单的工具 > 自定义，选择“快捷方式”这个Tab，点“更多快捷方式...”按钮 ",
+    "bin": "EmEditor.exe",
+    "shortcuts": [
+        [
+            "EmEditor.exe",
+            "EmEditor"
+        ]
+    ],
+    "persist": [
+        "eeCommon.ini",
+        "eeConfig.ini",
+        "eeLM.ini",
+        "eePlugins.ini"
+    ],
+    "pre_install": [
+        "if(!(Test-Path \"$persist_dir\\eeCommon.ini\")) { Add-Content \"$dir\\eeCommon.ini\" $null }",
+        "if(!(Test-Path \"$persist_dir\\eeConfig.ini\")) { Add-Content \"$dir\\eeConfig.ini\" $null }",
+        "if(!(Test-Path \"$persist_dir\\eeLM.ini\")) { Add-Content \"$dir\\eeLM.ini\" $null }",
+        "if(!(Test-Path \"$persist_dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" $null }"
+    ],
+    "checkver": {
+        "url": "https://www.emeditor.com/download/",
+        "re": "<h3>Download latest version: v([\\d.]+)</h3>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
+            },
+            "32bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
+            }
+        }
+    }
+}

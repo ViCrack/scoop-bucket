@@ -26,6 +26,7 @@
         "eeConfig.ini",
         "eeLM.ini",
         "eePlugins.ini"
+        "AppData"
     ],
     "pre_install": [
         "if(!(Test-Path \"$persist_dir\\eeCommon.ini\")) { Add-Content \"$dir\\eeCommon.ini\" $null }",

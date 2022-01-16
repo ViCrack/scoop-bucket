@@ -9,11 +9,11 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.35/ScreenToGif.2.35.Portable.x86.zip",
-            "hash": "CBF36F003FCD6FAA33AF35DF04E20A4E7C66FD3E6A63638EF36EB8955840FA17"
+            "hash": "b51587b2f8ae9a436f64977feaad7769c29185da9c1e2197982587e5a25177d4"
         },
         "64bit": {
             "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.35/ScreenToGif.2.35.Portable.x64.zip",
-            "hash": "ED8A3186B3FAE3480B15E698067235C66099A0034E6825D4680DDE3151BD5834"
+            "hash": "d3fd253b686522e8cdd298ce9156135acd2f850b87c953a810c31083ee017664"
         }
     },
     "bin": "ScreenToGif.exe",

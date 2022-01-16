@@ -24,6 +24,7 @@ scoop install vi/<软件名>
 scoop install vi/fastgithub
 scoop install vi/xray
 scoop install vi/windterm
+scoop install vi/screentogif
 .......
 ```
 
@@ -33,6 +34,7 @@ scoop install vi/windterm
 scoop update *
 scoop update vi/xray
 scoop update vi/windterm
+scoop update vi/screentogif
 .......
 ```
 

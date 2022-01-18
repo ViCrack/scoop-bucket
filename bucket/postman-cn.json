@@ -1,5 +1,5 @@
 {
-    "version": "9.9.2",
+    "version": "9.9.3",
     "description": "Postman中文版, Complete API development environment.",
     "homepage": "https://github.com/hlmd/postman-cn",
     "license": {
@@ -9,12 +9,12 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://dl.pstmn.io/download/9.9.2/Postman-win64-9.9.2-full.nupkg#/dl.7z",
-                "https://github.com/hlmd/Postman-cn/releases/download/9.9.2/app.zip"
+                "https://dl.pstmn.io/download/9.9.3/Postman-win64-9.9.3-full.nupkg#/dl.7z",
+                "https://github.com/hlmd/Postman-cn/releases/download/9.9.3/app.zip"
             ],
             "hash": [
-                "d708c6f08fd84ee6c1739b7f2ef1d8f421de544d9cb6fe1b65d60bfb7b748f89",
-                "e52992330d38b2e65f17ff7a752eea8a668b549616cf938e6ba850896e4ae21c"
+                "96658c4b63de79877324257b8cbc8479bbd2e12b6a4d8799f61568801b8535bb",
+                "4be9c6299413c1d51e8741a66511665b443df83db3753320f3a259bf18db36cf"
             ]
         }
     },

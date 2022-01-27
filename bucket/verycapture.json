@@ -1,11 +1,11 @@
 {
-    "version": "1.7.22",
+    "version": "1.8.1",
     "description": "verycapture功能支持长截图，矩形截图，延时截图，任意区域截图，gif录制，录屏，ocr翻译等功能.",
     "homepage": "https://verycapture.com/cn/download.html",
     "license": "identifier",
     "notes": "disable aria2c download: scoop config aria2-enabled false, and may be denied by bucket referer rule, should be remove referer in /lib/install.ps1#dl",
-    "url": "https://test-1253128807.cos.ap-chengdu.myqcloud.com/joyshare/verycapture1.7.22.zip",
-    "hash": "5acf1877abe9686686039fb60c201b3b31c51062d4bc20e5bc6c4ddd7325825f",
+    "url": "https://cdn.verycapture.com/joyshare/verycapture1.8.1.zip",
+    "hash": "89593258fab08e7f77c9be423036d8750b41c491ef0dec90f24dc20915c3e37d",
     "extract_dir": "verycapture",
     "bin": "VeryCapture.exe",
     "shortcuts": [
@@ -19,6 +19,6 @@
         "regex": "\"function-banner\">[\\s\\S]*?<div class=\"title\">v(.*?)</div>"
     },
     "autoupdate": {
-        "url": "https://test-1253128807.cos.ap-chengdu.myqcloud.com/joyshare/verycapture$version.zip"
+        "url": "https://cdn.verycapture.com/joyshare/verycapture$version.zip"
     }
 }

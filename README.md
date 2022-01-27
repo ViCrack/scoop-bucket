@@ -55,3 +55,4 @@ scoop update vi/screentogif
 | another-redis-desktop-manager | AnotherRedisDesktopManager, 更快、更好、更稳定的 Redis 桌面(GUI)管理客户端，兼容 Windows、Mac、Linux，性能出众，轻松加载海量键值.                                                                             |
 | dev-sidecar                   | 开发者边车，github 打不开，github 加速，git clone 加速，git release 下载加速，stackoverflow 加速 .                                                                                                            |
 | EmEditor Professional         | EmEditor 是一款快速，轻巧，可扩展，使用方便的 Windows 代码编辑器。支持宏，Unicode，代码段插件，还能处理大数据以及 CSV 文件，无需 Excel，堪称最强 CSV 编辑器。软件自带简体中文，支持32位和64位版。 |
+| Proguard         | Java optimizer and obfuscator, Java混淆工具 |

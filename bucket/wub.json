@@ -1,17 +1,22 @@
 {
     "version": "1.6",
     "description": " 彻底关闭Win10自动更新工具(Windows Update Blocker) ",
-    "homepage": "https://www.sordum.org/9470/windows-update-blocker-v1-6/",
+    "homepage": "https://www.sordum.org/downloads/?st-windows-update-blocker",
     "license": "Freeware",
     "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub.zip",
     "hash": "a3989249de68b1d6545f6ae889a1347142847637cf193276ffa92c2d543f3ecb",
     "extract_dir": "Wub",
     "architecture": {
         "32bit": {
-            "bin": "Wub.exe"
+            "shortcuts": [
+                [
+                    "Wub.exe",
+                    "Wub"
+                ]
+            ]
         },
         "64bit": {
-            "bin": [
+            "shortcuts": [
                 [
                     "Wub_x64.exe",
                     "wub"
@@ -34,5 +39,12 @@
     },
     "persist": [
         "Wub.ini"
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.sordum.org/?s=Windows+Update+Blocker",
+        "regex": "title=\"Windows Update Blocker v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub.zip"
+    }
 }

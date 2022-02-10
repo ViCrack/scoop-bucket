@@ -1,6 +1,6 @@
 {
     "version": "1.7",
-    "description": " 彻底关闭Win10自动更新工具(Windows Update Blocker) ",
+    "description": "wub 彻底关闭Win10自动更新工具(Windows Update Blocker) ",
     "homepage": "https://www.sordum.org/downloads/?st-windows-update-blocker",
     "license": "Freeware",
     "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub.zip",
@@ -23,19 +23,6 @@
                 ]
             ]
         }
-    },
-    "pre_install": [
-        "'Wub.ini' | ForEach-Object {",
-        "    Copy-Item \"$persist_dir\\$_\" \"$dir\" -ErrorAction 'SilentlyContinue' -Force",
-        "}"
-    ],
-    "uninstaller": {
-        "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "'Wub.ini' | ForEach-Object {",
-            "    Copy-Item \"$dir\\$_\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force",
-            "}"
-        ]
     },
     "persist": "Wub.ini",
     "checkver": {

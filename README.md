@@ -25,7 +25,8 @@ scoop install vi/fastgithub
 scoop install vi/xray
 scoop install vi/windterm
 scoop install vi/screentogif
-scoop install vi/powerrun
+scoop install vi/PowerRun
+scoop install vi/MonitorOff
 scoop install vi/wub
 .......
 ```
@@ -58,3 +59,4 @@ scoop update vi/screentogif
 | EmEditor Professional         | EmEditor 是一款快速，轻巧，可扩展，使用方便的 Windows 代码编辑器。支持宏，Unicode，代码段插件，还能处理大数据以及 CSV 文件，无需 Excel，堪称最强 CSV 编辑器。软件自带简体中文，支持 32 位和 64 位版。 |
 | Proguard                      | Java optimizer and obfuscator, Java 混淆工具                                                                                                                                                          |
 | PowerRun                      | PowerRun (Run with highest privileges) 使用 TrustedInstaller/System 的权限运行程序                                                                                                                    |
+| MonitorOff                      | MonitorOff (Screen Turns Off) 用于关闭显示器屏幕 |

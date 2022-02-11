@@ -36,19 +36,6 @@
             ]
         }
     },
-    "pre_install": [
-        "'PowerRun.ini' | ForEach-Object {",
-        "    Copy-Item \"$persist_dir\\$_\" \"$dir\" -ErrorAction 'SilentlyContinue' -Force",
-        "}"
-    ],
-    "uninstaller": {
-        "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "'PowerRun.ini' | ForEach-Object {",
-            "    Copy-Item \"$dir\\$_\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force",
-            "}"
-        ]
-    },
     "persist": "PowerRun.ini",
     "checkver": {
         "url": "https://www.sordum.org/downloads/?power-run",

@@ -24,8 +24,7 @@
         ]
     ],
     "persist": [
-        "profiles",
-        "terminal"
+        "profiles"
     ],
     "checkver": "github",
     "autoupdate": {

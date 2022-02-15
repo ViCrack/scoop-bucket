@@ -1,22 +1,22 @@
 {
-    "version": "2.2.2",
-    "description": "SSH/Sftp/Shell/Telnet/Serial client",
-    "homepage": "https://kingtoolbox.github.io/",
+    "version": "2.3.0",
+    "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. ",
+    "homepage": "https://github.com/kingToolbox/WindTerm",
     "license": "Apache-2.0",
     "suggest": {
         "vcredist2019": "extras/vcredist2019"
     },
-    "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.2/WindTerm_2.2.2_Windows_Portable.zip",
-    "hash": "9107cab40f6b447d8da98e4a19359661bbe988c645baf455d759ebd4351cc8a8",
-    "extract_dir": "WindTerm_2.2.2",
-    "pre_install": [
-        "if ((Get-CimInstance Win32_OperatingSystem).BuildNumber -ge 18309) {\n",
-        "    Remove-Item \"$dir\\WindTerm.exe\"\n",
-        "    Rename-Item \"$dir\\WindTerm_Win10_Conpty.exe\" 'WindTerm.exe'\n",
-        "} else {\n",
-        "    Remove-Item \"$dir\\WindTerm_Win10_Conpty.exe\"\n",
-        "}"
-    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_64.zip",
+            "hash": "C23F388CD6312CE412DD1038EB98A73605DB4445D3139DF8122E81A8E96292AD"
+        },
+        "32bit": {
+            "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_32.zip",
+            "hash": "65EB626F854DE31E213BED1BED0D922CB9C8CAC4375632803F1540AB206CC702"
+        }
+    },
+    "extract_dir": "WindTerm_2.3.0",
     "shortcuts": [
         [
             "WindTerm.exe",
@@ -29,12 +29,16 @@
         "profiles",
         "terminal"
     ],
-    "checkver": {
-        "github": "https://github.com/kingToolbox/WindTerm",
-        "regex": "WindTerm_([\\d.]+)_Windows_Portable"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kingToolbox/WindTerm/releases/download/$majorVersion.$minorVersion/WindTerm_$version_Windows_Portable.zip",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version$version_Windows_Portable_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_32.zip"
+            }
+        },
         "extract_dir": "WindTerm_$version"
     }
 }

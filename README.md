@@ -51,7 +51,7 @@ scoop update vi/screentogif
 | rad                           | 一款专为安全扫描而生的浏览器爬虫                                                                                                                                                                      |
 | treesize                      | TreeSize 纯净版是一款功能强大的磁盘空间管理软件，为用户提供了功能强大的磁盘空间管理功能                                                                                                               |
 | verycapture                   | 支持长截图，矩形截图，延时截图，任意区域截图，gif 录制，录屏，ocr 翻译等功能                                                                                                                          |
-| windterm                      | SSH/Sftp/Shell/Telnet/Serial client                                                                                                                                                                   |
+| windterm                      |  A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. client                                                                                                                                                                   |
 | xray                          | 被动扫描器，一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc                                                                                                                             |
 | wub                           | 彻底关闭或者启用 Windowns 更新的工具(Windows Update Blocker) 中文版                                                                                                                                   |
 | another-redis-desktop-manager | AnotherRedisDesktopManager, 更快、更好、更稳定的 Redis 桌面(GUI)管理客户端，兼容 Windows、Mac、Linux，性能出众，轻松加载海量键值.                                                                     |

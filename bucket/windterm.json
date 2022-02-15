@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_64.zip",
-            "hash": "C23F388CD6312CE412DD1038EB98A73605DB4445D3139DF8122E81A8E96292AD"
+            "hash": "c23f388cd6312ce412dd1038eb98a73605db4445d3139df8122e81a8e96292ad"
         },
         "32bit": {
             "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_32.zip",
-            "hash": "65EB626F854DE31E213BED1BED0D922CB9C8CAC4375632803F1540AB206CC702"
+            "hash": "65eb626f854de31e213bed1bed0d922cb9c8cac4375632803f1540ab206cc702"
         }
     },
     "extract_dir": "WindTerm_2.3.0",
@@ -33,7 +33,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version$version_Windows_Portable_x86_64.zip"
+                "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_64.zip"
             },
             "32bit": {
                 "url": "https://github.com/kingToolbox/WindTerm/releases/download/$version/WindTerm_$version_Windows_Portable_x86_32.zip"

@@ -1,11 +1,11 @@
 {
-    "version": "7.2.0",
+    "version": "7.2.1",
     "description": "ProGuard, Java optimizer and obfuscator",
     "homepage": "https://github.com/Guardsquare/proguard",
     "license": "Apache-2.0",
-    "url": "https://github.com/Guardsquare/proguard/releases/download/v7.2.0/proguard-7.2.0.zip",
-    "hash": "BC47499F0ABAB28D6DCF8561511A95F8D45BA0C71501F1B491897EC7B6749F85",
-    "extract_dir": "proguard-7.2.0",
+    "url": "https://github.com/Guardsquare/proguard/releases/download/v7.2.1/proguard-7.2.1.zip",
+    "hash": "bc98276d96b4459aa5d3dbd7852687087381bfd4783380e813fee3d1b383a16b",
+    "extract_dir": "proguard-7.2.1",
     "bin": [
         "bin\\proguardgui.bat",
         "bin\\proguard.bat"

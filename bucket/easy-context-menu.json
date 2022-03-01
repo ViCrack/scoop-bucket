@@ -11,7 +11,7 @@
             "shortcuts": [
                 [
                     "EcMenu.exe",
-                    "EcMenu"
+                    "Easy Context Menu"
                 ]
             ]
         },
@@ -19,7 +19,7 @@
             "shortcuts": [
                 [
                     "EcMenu_x64.exe",
-                    "EcMenu"
+                    "Easy Context Menu"
                 ]
             ]
         }

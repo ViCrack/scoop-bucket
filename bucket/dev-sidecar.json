@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/docmirror/dev-sidecar/releases/download/v1.7.3/DevSidecar-1.7.3.exe#/dl.7z",
-            "hash": "db8d12afec3d91b41f8e487282f3df8ae4ed1f4cb4e0d7b42da6fb1446c2b3e3",
+            "hash": "567b123f709f7b48b8c8c81be6f77d9d1bcef27da125250d7895a5cdd5c8ac6f",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"

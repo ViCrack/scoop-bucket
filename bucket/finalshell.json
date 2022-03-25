@@ -1,10 +1,10 @@
 {
-    "version": "3.9.3.4",
+    "version": "3.9.4",
     "description": "国产软件,SSH工具,服务器管理,远程桌面加速软件,支持Windows,macOS,Linux",
     "homepage": "https://www.hostbuf.com/",
     "license": "Freeware",
     "url": "http://www.hostbuf.com/downloads/finalshell_install.exe#/dl.7z",
-    "hash": "923a09bb7cb3768a2f9a9d492d9c6b18635e74a93f3835f3124d94ad3d9965fe",
+    "hash": "ee0b3e9ca4a987c0e903b2e6268a0cc5983732491aad8bde1d859e4da1e69243",
     "pre_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
         "if (!(Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" | Out-Null }",

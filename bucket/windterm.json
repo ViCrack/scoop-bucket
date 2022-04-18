@@ -16,6 +16,9 @@
             "hash": "6a2139cf053bb8fd21342a470c0f9a334faec44bbcf60e037c714b2baad22695"
         }
     },
+    "pre_install": [
+        "if(!(Test-Path \"$dir\\profiles.config\")) { Add-Content \"$dir\\profiles.config\" '{\"path\":\".\"}' }"
+    ],
     "extract_dir": "WindTerm_2.4.0",
     "shortcuts": [
         [
@@ -23,7 +26,7 @@
             "WindTerm"
         ]
     ],
-    "persist": "profiles",
+    "persist": ".wind",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

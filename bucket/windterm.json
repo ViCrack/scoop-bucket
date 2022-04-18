@@ -1,5 +1,5 @@
 {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. ",
     "homepage": "https://github.com/kingToolbox/WindTerm",
     "license": "Apache-2.0",
@@ -8,24 +8,22 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_64.zip",
-            "hash": "c23f388cd6312ce412dd1038eb98a73605db4445d3139df8122e81a8e96292ad"
+            "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.4.0/WindTerm_2.4.0_Windows_Portable_x86_64.zip",
+            "hash": "e1aff2ee7164149deb0d8dfeba4d9b0889b9b364ac400ce639a68d86db86ec72"
         },
         "32bit": {
-            "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.3.0/WindTerm_2.3.0_Windows_Portable_x86_32.zip",
-            "hash": "65eb626f854de31e213bed1bed0d922cb9c8cac4375632803f1540ab206cc702"
+            "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.4.0/WindTerm_2.4.0_Windows_Portable_x86_32.zip",
+            "hash": "6a2139cf053bb8fd21342a470c0f9a334faec44bbcf60e037c714b2baad22695"
         }
     },
-    "extract_dir": "WindTerm_2.3.0",
+    "extract_dir": "WindTerm_2.4.0",
     "shortcuts": [
         [
             "WindTerm.exe",
             "WindTerm"
         ]
     ],
-    "persist": [
-        "profiles"
-    ],
+    "persist": "profiles",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

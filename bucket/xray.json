@@ -1,5 +1,5 @@
 {
-    "version": "1.8.2",
+    "version": "1.7.0",
     "description": " 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc ",
     "homepage": "https://github.com/chaitin/xray",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://github.com/chaitin/xray/releases/download/1.8.2/xray_windows_386.exe.zip",
-            "hash": "cbf36f003fcd6faa33af35df04e20a4e7c66fd3e6a63638ef36eb8955840fa17",
+            "url": "https://github.com/chaitin/xray/releases/download/1.7.0/xray_windows_386.exe.zip",
+            "hash": "67dd16c08b9a4acac870a77f31051099d60af60367a88707090d3ee027aaaa20",
             "pre_install": [
                 "Rename-Item \"$dir\\xray_windows_386.exe\" 'xray.exe'",
                 "if (!(Test-Path \"$dir\\ca.crt\")) {",
@@ -19,8 +19,8 @@
             ]
         },
         "64bit": {
-            "url": "https://github.com/chaitin/xray/releases/download/1.8.2/xray_windows_amd64.exe.zip",
-            "hash": "ed8a3186b3fae3480b15e698067235c66099a0034e6825d4680dde3151bd5834",
+            "url": "https://github.com/chaitin/xray/releases/download/1.7.0/xray_windows_amd64.exe.zip",
+            "hash": "a97ecbcab51f41ceb5cad2d325d11257fc52f9f389f65c057489e39803ddc62e",
             "pre_install": [
                 "Rename-Item \"$dir\\xray_windows_amd64.exe\" 'xray.exe'",
                 "if (!(Test-Path \"$dir\\ca.crt\")) {",

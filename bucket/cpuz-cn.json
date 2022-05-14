@@ -4,7 +4,7 @@
     "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
     "license": "Freeware",
     "url": "https://download.cpuid.com/cpu-z/cpu-z_2.01-cn.zip",
-    "hash": "576af95046378ca97898b8635e9e0d35486ad3f22a2ecf8a7d2fb41b67e585f2",
+    "hash": "99a27de8923c9feeec012d7a1a26d03685277cb9389af50806848b0d58c81806",
     "architecture": {
         "64bit": {
             "bin": [

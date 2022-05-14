@@ -62,5 +62,6 @@ scoop update vi/screentogif
 | MonitorOff                      | MonitorOff (Screen Turns Off) 用于关闭显示器屏幕 |
 | Fab                      | Firewall App Blocker (Fab) 易于使用的Windows防火墙工具  |
 | RegConverter                      | RegConverter可以将.reg文件转换为.bat，.vbs或.au3。这对于需要管理员权限才能合并到注册表中的文件或无人参与的自动化安装时特别有用。  |
+| cpuz-cn                      |  CPU-Z 中文版 |
 
 > 关注持续更新, 有问题提issue

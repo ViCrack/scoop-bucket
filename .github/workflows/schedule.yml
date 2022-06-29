@@ -19,3 +19,4 @@ jobs:
         GIT_EMAIL: "18179821+ViCrack@users.noreply.github.com"
         GITH_EMAIL: "18179821+ViCrack@users.noreply.github.com"
         BUCKET: "ViCrack/scoop-bucket"
+        THROW_ERROR: '1'

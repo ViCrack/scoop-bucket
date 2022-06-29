@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 2
-          path: 'my_bucket'
+          path: 'scoop-bucket'
       - name: Checkout Scoop
         uses: actions/checkout@v2
         with:
@@ -25,7 +25,7 @@ jobs:
         run: |
           $env:SCOOP_HOME="$(Resolve-Path '.\scoop_core')"
           .\scoop_core\test\bin\init.ps1
-          .\my_bucket\bin\test.ps1
+          .\scoop-bucket\bin\test.ps1
   test_pwsh:
     name: PowerShell
     runs-on: windows-latest
@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 2
-          path: 'my_bucket'
+          path: 'scoop-bucket'
       - name: Checkout Scoop
         uses: actions/checkout@v2
         with:
@@ -45,4 +45,4 @@ jobs:
         run: |
           $env:SCOOP_HOME="$(Resolve-Path '.\scoop_core')"
           .\scoop_core\test\bin\init.ps1
-          .\my_bucket\bin\test.ps1
+          .\scoop-bucket\bin\test.ps1

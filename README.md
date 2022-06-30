@@ -64,5 +64,7 @@ scoop update vi/screentogif
 | RegConverter                      | RegConverter可以将.reg文件转换为.bat，.vbs或.au3。这对于需要管理员权限才能合并到注册表中的文件或无人参与的自动化安装时特别有用。  |
 | cpuz-cn                      |  CPU-Z 中文版 |
 | apifox                      |  Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。支持版本自动更新 |
+| naabu                      |  naabu 是用 go 编写的快速端口扫描器 |
+
 
 > 关注持续更新, 有问题提issue

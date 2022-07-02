@@ -65,6 +65,7 @@ scoop update vi/screentogif
 | cpuz-cn                      |  CPU-Z 中文版 |
 | apifox                      |  Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。支持版本自动更新 |
 | naabu                      |  naabu 是用 go 编写的快速端口扫描器 |
+| afrog                      |  afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities |
 
 
 > 关注持续更新, 有问题提issue

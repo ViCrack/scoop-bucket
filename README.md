@@ -46,12 +46,12 @@ scoop update vi/screentogif
 | 软件                          | 描述                                                                                                                                                                                                  |
 | :---------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | fastgithub                    | github 加速神器，解决 github 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等问题.                                                                               |
-| finalshell                    | FinalShell,SSH 工具,服务器管理,远程桌面加速软件,支持 Windows,macOS,Linux                                                                                                                                |
+| finalshell                    | FinalShell,SSH 工具,服务器管理,远程桌面加速软件,支持 Windows,macOS,Linux                                                                                                                              |
 | postman-cn                    | Postman 中文版                                                                                                                                                                                        |
 | rad                           | 一款专为安全扫描而生的浏览器爬虫                                                                                                                                                                      |
 | treesize                      | TreeSize 纯净版是一款功能强大的磁盘空间管理软件，为用户提供了功能强大的磁盘空间管理功能                                                                                                               |
 | verycapture                   | 支持长截图，矩形截图，延时截图，任意区域截图，gif 录制，录屏，ocr 翻译等功能                                                                                                                          |
-| windterm                      |  A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. client                                                                                                                                                                   |
+| windterm                      | A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. client                                                                                                                           |
 | xray                          | 被动扫描器，一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc                                                                                                                             |
 | wub                           | 彻底关闭或者启用 Windowns 更新的工具(Windows Update Blocker) 中文版                                                                                                                                   |
 | another-redis-desktop-manager | AnotherRedisDesktopManager, 更快、更好、更稳定的 Redis 桌面(GUI)管理客户端，兼容 Windows、Mac、Linux，性能出众，轻松加载海量键值.                                                                     |
@@ -59,13 +59,13 @@ scoop update vi/screentogif
 | EmEditor Professional         | EmEditor 是一款快速，轻巧，可扩展，使用方便的 Windows 代码编辑器。支持宏，Unicode，代码段插件，还能处理大数据以及 CSV 文件，无需 Excel，堪称最强 CSV 编辑器。软件自带简体中文，支持 32 位和 64 位版。 |
 | Proguard                      | Java optimizer and obfuscator, Java 混淆工具                                                                                                                                                          |
 | PowerRun                      | PowerRun (Run with highest privileges) 使用 TrustedInstaller/System 的权限运行程序                                                                                                                    |
-| MonitorOff                      | MonitorOff (Screen Turns Off) 用于关闭显示器屏幕 |
-| Fab                      | Firewall App Blocker (Fab) 易于使用的Windows防火墙工具  |
-| RegConverter                      | RegConverter可以将.reg文件转换为.bat，.vbs或.au3。这对于需要管理员权限才能合并到注册表中的文件或无人参与的自动化安装时特别有用。  |
-| cpuz-cn                      |  CPU-Z 中文版 |
-| apifox                      |  Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。支持版本自动更新 |
-| naabu                      |  naabu 是用 go 编写的快速端口扫描器 |
-| afrog                      |  afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities |
+| MonitorOff                    | MonitorOff (Screen Turns Off) 用于关闭显示器屏幕                                                                                                                                                      |
+| Fab                           | Firewall App Blocker (Fab) 易于使用的 Windows 防火墙工具                                                                                                                                              |
+| RegConverter                  | RegConverter 可以将.reg 文件转换为.bat，.vbs 或.au3。这对于需要管理员权限才能合并到注册表中的文件或无人参与的自动化安装时特别有用。                                                                   |
+| cpuz-cn                       | CPU-Z 中文版                                                                                                                                                                                          |
+| apifox                        | Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。支持版本自动更新                                                                        |
+| naabu                         | naabu 是用 go 编写的快速端口扫描器                                                                                                                                                                    |
+| afrog                         | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities                                                                                                       |
+| caesium                       | Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.                                                                 |
 
-
-> 关注持续更新, 有问题提issue
+> 关注持续更新, 有问题提 issue

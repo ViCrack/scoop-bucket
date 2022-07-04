@@ -67,5 +67,6 @@ scoop update vi/screentogif
 | naabu                         | naabu 是用 go 编写的快速端口扫描器                                                                                                                                                                    |
 | afrog                         | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 - A tool for finding vulnerabilities                                                                                                       |
 | caesium                       | Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.                                                                 |
+| igdm                          | Desktop application for Instagram DMs                                                                                                                                                                 |
 
 > 关注持续更新, 有问题提 issue

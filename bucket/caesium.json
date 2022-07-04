@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.1.0/caesium-image-compressor-2.1.0-win.zip",
+            "url": "https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.1.0/caesium-image-compressor-2.1.0-win.zip",
             "hash": "7efc69436328870d3f8f3e736b38043c67fd4c1883d5982d3a3e0a9af8a109f1",
             "extract_dir": "caesium-image-compressor-2.1.0-win",
             "shortcuts": [
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/https://github.com/Lymphatus/caesium-image-compressor/releases/download/v$version/caesium-image-compressor-$version-win.zip",
+                "url": "https://github.com/Lymphatus/caesium-image-compressor/releases/download/v$version/caesium-image-compressor-$version-win.zip",
                 "extract_dir": "caesium-image-compressor-$version-win"
             }
         }

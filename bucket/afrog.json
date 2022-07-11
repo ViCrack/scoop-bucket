@@ -10,7 +10,7 @@
             "bin": [
                 [
                     "afrog_windows_amd64.exe",
-                    "afrog_.exe"
+                    "afrog.exe"
                 ]
             ]
         }

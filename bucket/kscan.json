@@ -1,0 +1,39 @@
+{
+    "version": "1.76",
+    "description": "Kscan是一款纯go开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹10000+，应用指纹2000+，暴力破解协议10余种。",
+    "homepage": "https://github.com/lcvvvv/kscan",
+    "license": "GPL-3.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/lcvvvv/kscan/releases/download/v1.76/kscan_windows_386.zip",
+            "hash": "efe5248872337c2a08596d930344d532c356242311adda2d200a91ac1c911a1f",
+            "bin": [
+                [
+                    "kscan_windows_386.exe",
+                    "kscan"
+                ]
+            ]
+        },
+        "64bit": {
+            "url": "https://github.com/lcvvvv/kscan/releases/download/v1.76/kscan_windows_amd64.zip",
+            "hash": "0e81bdb5cfc9c1e0767a2338e527e3566ad24d0b4df16fe8d19067348fb24399",
+            "bin": [
+                [
+                    "kscan_windows_amd64.exe",
+                    "kscan"
+                ]
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/lcvvvv/kscan/releases/download/v$version/kscan_windows_386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/lcvvvv/kscan/releases/download/v$version/kscan_windows_amd64.zip"
+            }
+        }
+    }
+}

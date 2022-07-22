@@ -55,8 +55,8 @@ scoop update vi/screentogif
 | scoop install xray            | 被动扫描器，一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc                                                                                                                             |
 | scoop install wub             | 彻底关闭或者启用 Windowns 更新的工具(Windows Update Blocker) 中文版                                                                                                                                   |
 | another-redis-desktop-manager | AnotherRedisDesktopManager, 更快、更好、更稳定的 Redis 桌面(GUI)管理客户端，兼容 Windows、Mac、Linux，性能出众，轻松加载海量键值.                                                                     |
-| scoop install dev-sidecar                   | 开发者边车，github 打不开，github 加速，git clone 加速，git release 下载加速，stackoverflow 加速 .                                                                                                    |
-| scoop install EmEditor         | EmEditor 是一款快速，轻巧，可扩展，使用方便的 Windows 代码编辑器。支持宏，Unicode，代码段插件，还能处理大数据以及 CSV 文件，无需 Excel，堪称最强 CSV 编辑器。软件自带简体中文，支持 32 位和 64 位版。 |
+| scoop install dev-sidecar     | 开发者边车，github 打不开，github 加速，git clone 加速，git release 下载加速，stackoverflow 加速 .                                                                                                    |
+| scoop install EmEditor        | EmEditor 是一款快速，轻巧，可扩展，使用方便的 Windows 代码编辑器。支持宏，Unicode，代码段插件，还能处理大数据以及 CSV 文件，无需 Excel，堪称最强 CSV 编辑器。软件自带简体中文，支持 32 位和 64 位版。 |
 | scoop install Proguard        | Java optimizer and obfuscator, Java 混淆工具                                                                                                                                                          |
 | scoop install PowerRun        | PowerRun (Run with highest privileges) 使用 TrustedInstaller/System 的权限运行程序                                                                                                                    |
 | scoop install MonitorOff      | MonitorOff (Screen Turns Off) 用于关闭显示器屏幕                                                                                                                                                      |
@@ -69,5 +69,6 @@ scoop update vi/screentogif
 | scoop install caesium         | Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.                                                                 |
 | scoop install igdm            | Desktop application for Instagram DMs                                                                                                                                                                 |
 | scoop install kscan           | Kscan 是一款纯 go 开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议 1200+，协议指纹 10000+，应用指纹 2000+，暴力破解协议 10 余种。                                       |
+| scoop install bowpad          | A simple and fast text editor with a ribbon UI                                                                                                                                                        |
 
 > 关注持续更新, 有问题提 issue

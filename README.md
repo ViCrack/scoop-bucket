@@ -70,5 +70,7 @@ scoop update vi/screentogif
 | scoop install igdm            | Desktop application for Instagram DMs                                                                                                                                                                 |
 | scoop install kscan           | Kscan 是一款纯 go 开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议 1200+，协议指纹 10000+，应用指纹 2000+，暴力破解协议 10 余种。                                       |
 | scoop install bowpad          | A simple and fast text editor with a ribbon UI                                                                                                                                                        |
+| scoop install vscan          | 开源、轻量、快速、跨平台 的网站漏洞扫描工具，帮助您快速检测网站安全隐患。功能 端口扫描(port scan) 指纹识别(fingerprint) 漏洞检测(nday check) 智能爆破 (admin brute) 敏感文件扫描(file fuzz)
+ UI                                                                                                                                                        |
 
 > 关注持续更新, 有问题提 issue

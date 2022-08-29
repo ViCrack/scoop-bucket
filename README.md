@@ -73,5 +73,6 @@ scoop update vi/screentogif
 | scoop install vscan                | 开源、轻量、快速、跨平台 的网站漏洞扫描工具，帮助您快速检测网站安全隐患。功能 端口扫描(port scan) 指纹识别(fingerprint) 漏洞检测(nday check) 智能爆破 (admin brute) 敏感文件扫描(file fuzz)           |
 | scoop install bluelife-host-editor | BlueLife Hosts editor is a Portable freeware to simplify \"hosts\" file editing Process, you can Speed up most visited webpages or block unwanted domain names                                        |
 | scoop install w3cschool            | w3cschool 离线版 编程手册                                                                                                                                                                             |
+| scoop install ddns-go              | 简单好用的 DDNS。自动更新域名解析到公网 IP(支持阿里云、腾讯云 dnspod、Cloudflare、华为云、百度云、porkbun)                                                                                            |
 
 > 关注持续更新, 有问题提 issue

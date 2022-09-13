@@ -1,0 +1,59 @@
+{
+    "version": "1.170.5.1",
+    "description": "Text editor",
+    "homepage": "http://uvviewsoft.com/cudatext/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://www.fosshub.com/CudaText.html/cudatext-win-x64-1.170.5.1.zip",
+                "https://downloads.sourceforge.net/project/cudatext/addons/translations/translation.zh_CN.zip"
+            ],
+            "hash": [
+                "9b8f0dc0be50dc78493f12737a72628f36880025e1494e3b53e24ab65de4fea7",
+                "748a27ea7c07dfa6e28e0f7913019bedd703c5862e75bb001bb5ceaf714684bb"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "https://www.fosshub.com/CudaText.html/cudatext-win-x32-1.170.5.1.zip",
+                "https://downloads.sourceforge.net/project/cudatext/addons/translations/translation.zh_CN.zip"
+            ],
+            "hash": [
+                "06c988d5e24307e9e5e69e0de4c5f0cc8796de96a783772cc4a1c73c8509d9b1",
+                "748a27ea7c07dfa6e28e0f7913019bedd703c5862e75bb001bb5ceaf714684bb"
+            ]
+        }
+    },
+    "post_install": [
+        "Move-Item \"$dir\\install.inf\" \"$persist_dir\\data\\lang\\install.inf\" -Force",
+        "Move-Item \"$dir\\zh_CN.ini\" \"$persist_dir\\data\\lang\\zh_CN.ini\" -Force",
+        "if (Test-Path \"$dir\\py.original\") { Copy-Item \"$dir\\py.original\\*\" \"$dir\\py\" -Force -Recurse}"
+    ],
+    "bin": "cudatext.exe",
+    "shortcuts": [
+        [
+            "cudatext.exe",
+            "CudaText"
+        ]
+    ],
+    "persist": [
+        "settings",
+        "data",
+        "py"
+    ],
+    "checkver": {
+        "url": "https://www.fosshub.com/CudaText.html",
+        "regex": "cudatext-win-x64-([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.fosshub.com/CudaText.html/cudatext-win-x64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://www.fosshub.com/CudaText.html/cudatext-win-x32-$version.zip"
+            }
+        }
+    }
+}

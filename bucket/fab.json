@@ -1,10 +1,10 @@
 {
-    "version": "1.8",
+    "version": "1.9",
     "description": "Firewall App Blocker (Fab) 易于使用的Windows防火墙工具 ",
     "homepage": "https://www.sordum.org/downloads/?firewall-app-blocker",
     "license": "Freeware",
     "url": "https://www.sordum.org/files/download/firewall-app-blocker/fab.zip",
-    "hash": "684a7369c215837509d7daf597f9c3c77efe3038be936377477fd658b40e9f09",
+    "hash": "877496538206e4301de2761c328d51edb112a1f9e73c9e35e75556ef5e0dd1e1",
     "extract_dir": "fab",
     "architecture": {
         "32bit": {

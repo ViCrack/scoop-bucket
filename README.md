@@ -43,6 +43,8 @@ scoop update vi/screentogif
 
 ### 现有软件
 
+> 关注持续更新, 有问题提 issue
+
 | 软件                               | 描述                                                                                                                                                                                                                                                                                                                                                                                                     |
 | :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | scoop install fastgithub           | github 加速神器，解决 github 打不开、用户头像无法加载、releases 无法上传下载、git-clone、git-pull、git-push 失败等问题.                                                                                                                                                                                                                                                                                  |
@@ -80,5 +82,4 @@ scoop update vi/screentogif
 | scoop install cudatext-cn          | cudatext 文本编辑，中文版，优化修正设置目录器                                                                                                                                                                                                                                                                                                                                                            |
 | scoop install transfer             | 集合多个 API 的大文件传输工具器                                                                                                                                                                                                                                                                                                                                                                          |
 | scoop install filezilla            | 支持自动更新到最新版本                                                                                                                                                                                                                                                                                                                                                                                   |
-
-> 关注持续更新, 有问题提 issue
+| scoop install windynamicdesktop | Port of macOS Mojave Dynamic Desktop feature to Windows 10|

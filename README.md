@@ -84,3 +84,5 @@ scoop update vi/screentogif
 | scoop install filezilla            | 支持自动更新到最新版本                                                                                                                                                                                                                                                                                                                                                                                   |
 | scoop install windynamicdesktop | Port of macOS Mojave Dynamic Desktop feature to Windows 10|
 | scoop install crawlergo | A powerful browser crawler for web vulnerability scanners|
+
+| scoop install nuclei | Fast and customizable vulnerability scanner based on simple YAML based DSL|

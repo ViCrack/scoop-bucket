@@ -86,3 +86,5 @@ scoop update vi/screentogif
 | scoop install crawlergo | A powerful browser crawler for web vulnerability scanners|
 
 | scoop install nuclei | Fast and customizable vulnerability scanner based on simple YAML based DSL|
+
+| scoop install observerward | Cross platform community web fingerprint identification tool|

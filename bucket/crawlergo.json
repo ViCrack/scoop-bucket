@@ -12,7 +12,7 @@
     "bin": [
         [
             "crawlergo_windows_amd64.exe",
-            "crawlergo.exe"
+            "crawlergo"
         ]
     ],
     "checkver": "github",

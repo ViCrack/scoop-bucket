@@ -1,10 +1,10 @@
 {
-    "version": "3.9.7.2",
+    "version": "3.9.7.3",
     "description": "国产软件FinalShell SSH工具,服务器管理,远程桌面加速软件,支持Windows,macOS,Linux",
     "homepage": "https://www.hostbuf.com/t/988.html",
     "license": "Freeware",
     "url": "http://www.hostbuf.com/downloads/finalshell_install.exe#/dl.7z",
-    "hash": "853238c53fcdfc48a592fff131e1246c23742da065b0b8f4f870afee56d8f36d",
+    "hash": "ff949b4d7b6e6d75ad1e6795a4c017cb61000b40faaa8ef70843dc01ded9bf6d",
     "pre_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
         "if (!(Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" | Out-Null }",

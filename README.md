@@ -88,3 +88,5 @@ scoop update vi/screentogif
 | scoop install nuclei | Fast and customizable vulnerability scanner based on simple YAML based DSL|
 
 | scoop install observerward | Cross platform community web fingerprint identification tool|
+
+| scoop install httpx | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. It is designed to maintain result reliability with an increased number of threads|

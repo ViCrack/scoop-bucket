@@ -94,3 +94,5 @@ scoop update vi/screentogif
 | scoop install notify | Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms|
 
 | scoop install subfinder | Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing|
+
+| scoop install ksubdomain | 无状态子域名爆破工具|

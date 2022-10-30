@@ -1,16 +1,16 @@
 {
-    "version": "0.4.3.1475",
+    "version": "0.4.3.1477",
     "description": "一款高性能的可扩展编辑器",
     "homepage": "https://www.ed-x.cc/index.html",
     "license": "Freeware",
     "architecture": {
         "32bit": {
             "url": "https://www.ed-x.cc/versions/edx-x86.zip",
-            "hash": "20f80c37a115ede470860f3a0265587f996d322a17158fadb6ee186094ce86a8"
+            "hash": "d262f85e5aab6fb0f047465da4ac1d4355e99db5faf5c47441a5b66aa29aa279"
         },
         "64bit": {
             "url": "https://www.ed-x.cc/versions/edx.zip",
-            "hash": "117a7ad37d6c79477b2ef2e0d2b251a30c849fd8f5b6fdc2f2433d218a25fdd4"
+            "hash": "14ca8f0f1d9119e0b4d49193f37329e36f79eb56f81a5d0cfc8498362a142b1f"
         }
     },
     "shortcuts": [

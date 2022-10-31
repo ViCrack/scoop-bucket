@@ -1,11 +1,14 @@
 {
-    "version": "2022.10.10",
+    "version": "2022.10.31",
     "description": "Cross platform community web fingerprint identification tool",
     "homepage": "https://0x727.github.io/ObserverWard/",
     "license": "MIT",
-    "notes": "config location: $env:AppData/observer_ward\n",
-    "url": "https://github.com/0x727/ObserverWard/releases/download/v2022.10.10/observer_ward_v2022.10.10_i686-pc-windows-msvc.zip",
-    "hash": "bed488e57a166ad562c36693a2f04ec2bcd2656fddc5aed4f6b1c15724eb603f",
+    "notes": [
+        "config location: $env:AppData/observer_ward",
+        ""
+    ],
+    "url": "https://github.com/0x727/ObserverWard/releases/download/v2022.10.31/observer_ward_v2022.10.31_i686-pc-windows-msvc.zip",
+    "hash": "d81666a972b92395a3b28cdf119627717799b3cc9f169d75c0698adcb0467936",
     "bin": "observer_ward.exe",
     "checkver": {
         "github": "https://github.com/0x727/ObserverWard"

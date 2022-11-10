@@ -96,3 +96,5 @@ scoop update vi/screentogif
 | scoop install subfinder | Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing|
 
 | scoop install ksubdomain | 无状态子域名爆破工具|
+
+| scoop install interactsh | An OOB interaction gathering server and client library|

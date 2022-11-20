@@ -1,16 +1,16 @@
 {
-    "version": "4.2.0",
+    "version": "4.2.1",
     "description": "简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云、百度云、porkbun)",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/jeessy2/ddns-go/releases/download/v4.2.0/ddns-go_4.2.0_Windows_i386.tar.gz",
-            "hash": "95598b9fe9509814df741ac264e28723c2aec257b9c63c03ebc0f501e31cc582"
+            "url": "https://github.com/jeessy2/ddns-go/releases/download/v4.2.1/ddns-go_4.2.1_Windows_i386.tar.gz",
+            "hash": "21e2ba3a6b4fff35b1a690633e2775e439d456c6dbd119bfb26429ad90430992"
         },
         "64bit": {
-            "url": "https://github.com/jeessy2/ddns-go/releases/download/v4.2.0/ddns-go_4.2.0_Windows_x86_64.tar.gz",
-            "hash": "1e1c38fd37a6abaa336c801974bf52248213c483f7f89c5ac7d7a778e5943aea"
+            "url": "https://github.com/jeessy2/ddns-go/releases/download/v4.2.1/ddns-go_4.2.1_Windows_x86_64.tar.gz",
+            "hash": "65f48270fb25b535a1d19b25c1a7266596223e186f7765988ba5b092cb249a6f"
         }
     },
     "bin": "ddns-go.exe",

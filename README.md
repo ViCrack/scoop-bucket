@@ -100,3 +100,5 @@ scoop update vi/screentogif
 | scoop install interactsh | An OOB interaction gathering server and client library|
 
 | scoop install katana | A next-generation crawling and spidering framework|
+
+| scoop install super-xray | XRAY GUI Starter (Web Vulnerability Scanner)|

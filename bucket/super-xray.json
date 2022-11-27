@@ -1,0 +1,24 @@
+{
+    "version": "0.7",
+    "description": "XRAY GUI Starter (Web Vulnerability Scanner)",
+    "homepage": "https://github.com/4ra1n/super-xray",
+    "license": "Freeware",
+    "url": "https://github.com/4ra1n/super-xray/releases/download/0.7/super-xray-0.7-system-jre.exe",
+    "hash": "e857016772b3066b73feb874f557feac60440fc5e12f5dde2db54cea9cc7f175",
+    "shortcuts": [
+        [
+            "super-xray-0.7-system-jre.exe",
+            "Super-xray-system-jre"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/4ra1n/super-xray/releases/download/$version/super-xray-$version-system-jre.exe",
+        "shortcuts": [
+            [
+                "super-xray-$version-system-jre.exe",
+                "Super-xray-system-jre"
+            ]
+        ]
+    }
+}

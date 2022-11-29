@@ -102,3 +102,5 @@ scoop update vi/screentogif
 | scoop install katana | A next-generation crawling and spidering framework|
 
 | scoop install super-xray | XRAY GUI Starter (Web Vulnerability Scanner)|
+
+| scoop install behinder | “冰蝎”动态二进制加密网站管理客户端|

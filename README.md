@@ -4,7 +4,7 @@
 
 ---
 
-如果不明白 scoop 是什么的，可以查看这里 [scoop](https://github.com/ScoopInstaller/Scoop)
+如果不明白 scoop 是什么，点击查看这里 [scoop](https://github.com/ScoopInstaller/Scoop)
 
 可以简单理解为 scoop 是一个绿色软件的自动安装管理工具
 
@@ -37,19 +37,21 @@ scoop install vi/wub
 .......
 ```
 
+大多数情况下，是可以省略 `vi/`，只需要执行类似 `scoop install nuclei` 的命令
+
 ## 软件自动更新
 
 ---
 
 这个仓库已经添加 github ci 自动化，每隔几个小时会自动更新所有软件到最新版本
 
-使用者可以自行在系统中加个定时任务，这样就能自动更新 scoop 软件了，同时也可以手工更新
+使用者可以自行在系统中加个定时任务，这样就能自动更新 scoop 软件了，当然也可以手工更新
 
 ```powershell
 scoop update *
 ```
 
-单个软件的更新可以使用下列命令，当然大多数情况下软件名不重复的话，可以省略 `vi/`，只需要执行类似 `scoop install windterm` 的命令
+单个软件的更新可以使用下列命令，大多数情况下软件名不重复的话，可以省略 `vi/`，只需要执行类似 `scoop update xray` 的命令
 
 ```powershell
 scoop update vi/xray

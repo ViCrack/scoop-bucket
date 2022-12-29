@@ -1,5 +1,5 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "对Git仓库大文件进行扫描、清理，并重写提交历史的Git拓展工具。",
     "homepage": "https://gitee.com/oschina/git-repo-clean",
     "license": "MulanPSL-2.0",

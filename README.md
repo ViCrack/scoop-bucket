@@ -121,3 +121,4 @@ scoop update vi/screentogif
 | scoop install siyuan               | SiYuan is a local-first personal knowledge management system, support fine-grained block-level reference and Markdown instant-render editing 思源笔记                                                                                                                                                                                                                                                    |
 | scoop install git-repo-clean       | 对 Git 仓库大文件进行扫描、清理，并重写提交历史的 Git 拓展工具。                                                                                                                                                                                                                                                                                                                                         |
 | scoop install godzilla | 哥斯拉|
+| scoop install mdut | MDUT - Multiple Database Utilization Tools|

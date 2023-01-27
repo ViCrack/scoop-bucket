@@ -125,3 +125,4 @@ scoop update vi/screentogif
 | scoop install maye | Maye 一个简洁小巧的快速启动工具|
 | scoop install jndinjector | 一个高度可定制化的JNDI和Java反序列化利用工具|
 | scoop install newfiletime | NewFileTime is a Windows tool that provides you easy access to correct or manipulate any of the timestamps for any file and folder on Windows|
+| scoop install confuserex-cli | An open-source, free protector for .NET applications|

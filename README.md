@@ -128,3 +128,4 @@ scoop update vi/screentogif
 | scoop install confuserex-cli | An open-source, free protector for .NET applications|
 | scoop install confuserex-gui | An open-source, free protector for .NET applications|
 | scoop install extremedumper | .NET Assembly Dumper|
+| scoop install notepad-- | 一个支持windows/linux/mac的文本编辑器，目标是要替换notepad++，来自中国。|

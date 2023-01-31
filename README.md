@@ -127,3 +127,4 @@ scoop update vi/screentogif
 | scoop install newfiletime | NewFileTime is a Windows tool that provides you easy access to correct or manipulate any of the timestamps for any file and folder on Windows|
 | scoop install confuserex-cli | An open-source, free protector for .NET applications|
 | scoop install confuserex-gui | An open-source, free protector for .NET applications|
+| scoop install extremedumper | .NET Assembly Dumper|

@@ -118,7 +118,6 @@ scoop update vi/screentogif
 | scoop install super-xray           | XRAY GUI Starter (Web Vulnerability Scanner)                                                                                                                                                                                                                                                                                                                                                             |
 | scoop install behinder             | “冰蝎”动态二进制加密网站管理客户端                                                                                                                                                                                                                                                                                                                                                                       |
 | scoop install ffuf                 | Fast web fuzzer written in Go                                                                                                                                                                                                                                                                                                                                                                            |
-| scoop install siyuan               | SiYuan is a local-first personal knowledge management system, support fine-grained block-level reference and Markdown instant-render editing 思源笔记                                                                                                                                                                                                                                                    |
 | scoop install git-repo-clean       | 对 Git 仓库大文件进行扫描、清理，并重写提交历史的 Git 拓展工具。                                                                                                                                                                                                                                                                                                                                         |
 | scoop install godzilla | 哥斯拉|
 | scoop install mdut | MDUT - Multiple Database Utilization Tools|
@@ -128,5 +127,6 @@ scoop update vi/screentogif
 | scoop install confuserex-cli | An open-source, free protector for .NET applications|
 | scoop install confuserex-gui | An open-source, free protector for .NET applications|
 | scoop install extremedumper | .NET Assembly Dumper|
-| scoop install notepad-- | 一个支持windows/linux/mac的文本编辑器，目标是要替换notepad++，来自中国。|
+| scoop install notepad-- | 一个支持windows/linux/mac的文本编辑器|
 | scoop install jar-analyzer | 一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自动构建方法调用关系，支持分析Spring框架（A Java GUI Tool for Analyzing Jar）|
+| scoop install sliver | Adversary Emulation Framework|

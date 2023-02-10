@@ -130,3 +130,4 @@ scoop update vi/screentogif
 | scoop install notepad-- | 一个支持windows/linux/mac的文本编辑器|
 | scoop install jar-analyzer | 一个用于分析Jar包的GUI工具，可以用多种方式搜索你想要的信息，自动构建方法调用关系，支持分析Spring框架（A Java GUI Tool for Analyzing Jar）|
 | scoop install sliver | Adversary Emulation Framework|
+| scoop install quake_rs | Quake Command-Line Application|

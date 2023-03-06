@@ -132,3 +132,4 @@ scoop update vi/screentogif
 | scoop install sliver | Adversary Emulation Framework|
 | scoop install quake_rs | Quake Command-Line Application|
 | scoop install webshell_generate | 用于生成各类免杀webshell|
+| scoop install scan4all | Official repository  vuls Scan: 15000+PoCs; 23 kinds of application password crack; 7000+Web fingerprints; 146 protocols and 90000+ rules Port scanning; Fuzz, HW, awesome BugBounty( ͡° ͜ʖ ͡°)..|

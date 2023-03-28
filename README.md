@@ -139,3 +139,4 @@ scoop update vi/screentogif
 | scoop install xray                          | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc                                                                                                                                                                                                                                                                                                                                                                          | <https://github.com/chaitin/xray>                             |
 | scoop install anew | A tool for adding new lines to files, skipping duplicates| <https://github.com/tomnomnom/anew>|
 | scoop install gowitness | gowitness - a golang, web screenshot utility using Chrome Headless| <https://github.com/sensepost/gowitness>|
+| scoop install suo5 | 一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool| <https://github.com/zema1/suo5>|

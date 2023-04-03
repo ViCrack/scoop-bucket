@@ -140,3 +140,4 @@ scoop update vi/screentogif
 | scoop install anew | A tool for adding new lines to files, skipping duplicates| <https://github.com/tomnomnom/anew>|
 | scoop install gowitness | gowitness - a golang, web screenshot utility using Chrome Headless| <https://github.com/sensepost/gowitness>|
 | scoop install suo5 | 一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool| <https://github.com/zema1/suo5>|
+| scoop install rubick | Electron based open source toolbox, free integration of rich plug-ins. 基于 electron 的开源工具箱，自由集成丰富插件。| <https://rubickcenter.github.io/rubick/>|

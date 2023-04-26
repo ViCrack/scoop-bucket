@@ -143,3 +143,4 @@ scoop update vi/screentogif
 | scoop install rubick | Electron based open source toolbox, free integration of rich plug-ins. 基于 electron 的开源工具箱，自由集成丰富插件。| <https://rubickcenter.github.io/rubick/>|
 | scoop install pyxis | pyxis can automatically identify http and https requests, and get response headers, status codes, response size, response time, tools for fingerprinting (favicon has, service, CMS, framework, etc.)| <https://github.com/zan8in/pyxis>|
 | scoop install rakshasa | 基于go编写的跨平台、稳定、隐秘的多级代理内网穿透工具| <https://github.com/Mob2003/rakshasa>|
+| scoop install fvuln | F-vuln（全称：Find-Vulnerability）是为了自己工作方便专门编写的一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。| <https://github.com/d3ckx1/Fvuln>|

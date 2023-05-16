@@ -24,7 +24,11 @@
         "cudatext.exe",
         [
             "install_shell64.cmd",
-            "install_shell"
+            "cudatext_install_shell"
+        ],
+        [
+            "uninstall_shell64.cmd",
+            "cudatext_uninstall_shell"
         ]
     ],
     "shortcuts": [

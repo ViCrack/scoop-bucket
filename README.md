@@ -146,3 +146,4 @@ scoop update vi/screentogif
 | scoop install pot                           | 一个跨平台的划词翻译软件  A cross-platform translation software      | <https://pot.pylogmon.com>      |
 | scoop install xpoc                          | xpoc 为供应链漏洞扫描设计的快速应急响应工具                                                                                                                                                                                                                                                                                                                                                              | <https://github.com/chaitin/xpoc>                             |
 | scoop install suo5                          | 一款高性能 HTTP 代理隧道工具   A high-performance http proxy tunneling tool                  | <https://github.com/zema1/suo5> |
+| scoop install java-memshell-generator | 一款支持高度自定义的 Java 内存马生成工具| <https://github.com/pen4uin/java-memshell-generator>|

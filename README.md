@@ -148,3 +148,5 @@ scoop update vi/screentogif
 | scoop install suo5                          | 一款高性能 HTTP 代理隧道工具   A high-performance http proxy tunneling tool                  | <https://github.com/zema1/suo5> |
 | scoop install java-memshell-generator | 一款支持高度自定义的 Java 内存马生成工具| <https://github.com/pen4uin/java-memshell-generator>|
 | scoop install reqstress | a benchmarking&stressing tool that can send raw HTTP requests| <https://github.com/utkusen/reqstress>|
+| scoop install tssh | 内置支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持选择（ 搜索 ）服务器进行登录。| <https://trzsz.github.io/>|
+| scoop install pidkey | 密钥检测工具. Tool for check Microsoft Product Key| <https://github.com/laomms/PidKeyTool>|

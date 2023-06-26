@@ -9,7 +9,7 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\KeyList.db\")) { New-Item \"$dir\\KeyList.db\" | Out-Null }",
     "shortcuts": [
         [
-            "PidKeyTool3.44.exe",
+            "PidKeyTool.v3.44.exe",
             "PidKey"
         ]
     ],

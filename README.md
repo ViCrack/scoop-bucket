@@ -150,3 +150,4 @@ scoop update vi/screentogif
 | scoop install reqstress | a benchmarking&stressing tool that can send raw HTTP requests| <https://github.com/utkusen/reqstress>|
 | scoop install tssh | 内置支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持选择（ 搜索 ）服务器进行登录。| <https://trzsz.github.io/>|
 | scoop install pidkey | 密钥检测工具. Tool for check Microsoft Product Key| <https://github.com/laomms/PidKeyTool>|
+| scoop install cyberapi | API tool based on tauri, it is smaller and faster| <https://github.com/vicanso/cyberapi>|

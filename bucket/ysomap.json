@@ -3,7 +3,7 @@
     "description": "A helpful Java Deserialization exploit framework",
     "homepage": "https://github.com/wh1t3p1g/ysomap",
     "license": "Apache-2.0",
-    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/ysomap.json",
+    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/ysomap.json 不建议用scoop，最好是源码编译，能够获取最新的功能",
     "suggest": {
         "JDK": [
             "java/oraclejdk",

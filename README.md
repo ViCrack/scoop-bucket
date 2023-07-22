@@ -153,3 +153,4 @@ scoop update vi/screentogif
 | scoop install cyberapi | API tool based on tauri, it is smaller and faster| <https://github.com/vicanso/cyberapi>|
 | scoop install ysomap | A helpful Java Deserialization exploit framework| <https://github.com/wh1t3p1g/ysomap>|
 | scoop install vi/yakit | Cyber Security ALL-IN-ONE Platform | <https://github.com/yaklang/yakit>|
+| scoop install dnsx | dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers| <https://projectdiscovery.io>|

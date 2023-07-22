@@ -151,3 +151,5 @@ scoop update vi/screentogif
 | scoop install tssh | 内置支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持选择（ 搜索 ）服务器进行登录。| <https://trzsz.github.io/>|
 | scoop install pidkey | 密钥检测工具. Tool for check Microsoft Product Key| <https://github.com/laomms/PidKeyTool>|
 | scoop install cyberapi | API tool based on tauri, it is smaller and faster| <https://github.com/vicanso/cyberapi>|
+| scoop install ysomap | A helpful Java Deserialization exploit framework| <https://github.com/wh1t3p1g/ysomap>|
+| scoop install vi/yakit | Cyber Security ALL-IN-ONE Platform | <https://github.com/yaklang/yakit>|

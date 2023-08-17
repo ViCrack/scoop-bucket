@@ -21,7 +21,7 @@ scoop bucket add vi https://github.com/ViCrack/scoop-bucket
 执行以下命令安装本仓库中的软件：
 
 ```powershell
-scoop install vi/<软件名> |
+scoop install vi/<软件名>
 ```
 
 例如

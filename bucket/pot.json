@@ -3,7 +3,7 @@
     "description": "一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognize",
     "homepage": "https://pot-app.com",
     "license": "GPL-3.0-or-later",
-    "notes": "config location: $env:LocalAppData/com.pot-app.desktopconfig location: $env:AppData/com.pot-app.desktop - https://github.com/ViCrack/scoop-bucket/blob/master/bucket/pot.json",
+    "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\com.pot-app.desktop\nconfig location: C:\\Users\\<your username>\\AppData\\Roaming\\com.pot-app.desktop\n - https://github.com/ViCrack/scoop-bucket/blob/master/bucket/pot.json",
     "architecture": {
         "64bit": {
             "url": "https://github.com/pot-app/pot-desktop/releases/download/2.2.1/pot_2.2.1_x64-setup.exe#/dl.7z",

@@ -167,3 +167,4 @@ scoop update vi/screentogif
 | scoop install dnsx                          | dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers                                                                                                                                                                                                                                                                     | <https://projectdiscovery.io>                                 |
 | scoop install airfly | 机场订阅一键生成ip代理池，让机场起飞！| <https://github.com/zgao264/AirFly>|
 | scoop install woodpecker | 高危漏洞精准检测与深度利用框架| <https://github.com/woodpecker-framework/woodpecker-framework-release>|
+| scoop install mysql-fake-server | MySQL Fake Server (纯Java实现，支持GUI版和命令行版，提供Dockerfile，支持多种常见JDBC利用)| <https://github.com/4ra1n/mysql-fake-server>|

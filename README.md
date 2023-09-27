@@ -169,3 +169,4 @@ scoop update vi/screentogif
 | scoop install woodpecker | 高危漏洞精准检测与深度利用框架| <https://github.com/woodpecker-framework/woodpecker-framework-release>|
 | scoop install mysql-fake-server | MySQL Fake Server (纯Java实现，支持GUI版和命令行版，提供Dockerfile，支持多种常见JDBC利用)| <https://github.com/4ra1n/mysql-fake-server>|
 | scoop install winmemorycleaner | This free RAM cleaner uses native Windows features to optimize memory areas. It's a compact, portable, and smart application| <https://github.com/IgorMundstein/WinMemoryCleaner>|
+| scoop install 1remote | One Remote Access Manager to Rule Them All| <https://1remote.github.io/>|

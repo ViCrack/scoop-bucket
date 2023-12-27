@@ -176,3 +176,4 @@ scoop update vi/screentogif
 | scoop install ztasker | zTasker-定时 热键 计划任务| <http://www.everauto.net/cn/>|
 | scoop install rogue_mysql_server | A rouge mysql server supports reading files from most mysql libraries of multiple programming languages| <https://github.com/rmb122/rogue_mysql_server>|
 | scoop install postcat | Postcat 是一个可扩展的 API 工具平台。集合基础的 API 管理和测试功能，并且可以通过插件简化你的 API 开发工作，让你可以更快更好地创建 API。An extensible API tool| <https://www.postcat.com>|
+| scoop install xterminal | 不仅是强大的SSH工具，更提供本地控制台，以及更多即将推出的开发相关功能，让您专注于创造卓越的代码| <https://www.terminal.icu/>|

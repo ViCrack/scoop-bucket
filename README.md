@@ -178,3 +178,4 @@ scoop update vi/screentogif
 | scoop install postcat | Postcat 是一个可扩展的 API 工具平台。集合基础的 API 管理和测试功能，并且可以通过插件简化你的 API 开发工作，让你可以更快更好地创建 API。An extensible API tool| <https://www.postcat.com>|
 | scoop install xterminal | 不仅是强大的SSH工具，更提供本地控制台，以及更多即将推出的开发相关功能，让您专注于创造卓越的代码| <https://www.terminal.icu/>|
 | scoop install dddd | 一款高可拓展的指纹识别、供应链漏洞探测工具。支持从Hunter、Fofa批量拉取目标。| <https://github.com/SleepingBag945/dddd>|
+| scoop install siyuan-ce | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang| <https://b3log.org/siyuan>|

@@ -179,3 +179,4 @@ scoop update vi/screentogif
 | scoop install xterminal | 不仅是强大的SSH工具，更提供本地控制台，以及更多即将推出的开发相关功能，让您专注于创造卓越的代码| <https://www.terminal.icu/>|
 | scoop install dddd | 一款高可拓展的指纹识别、供应链漏洞探测工具。支持从Hunter、Fofa批量拉取目标。| <https://github.com/SleepingBag945/dddd>|
 | scoop install siyuan-ce | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang| <https://b3log.org/siyuan>|
+| scoop install trilium-cn | Translation for Trilium Notes. Trilium Notes 中文适配, 体验优化| <https://github.com/Nriver/trilium-translation>|

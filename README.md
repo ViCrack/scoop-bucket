@@ -180,3 +180,4 @@ scoop update vi/screentogif
 | scoop install dddd | 一款高可拓展的指纹识别、供应链漏洞探测工具。支持从Hunter、Fofa批量拉取目标。| <https://github.com/SleepingBag945/dddd>|
 | scoop install siyuan-ce | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang| <https://b3log.org/siyuan>|
 | scoop install trilium-cn | Translation for Trilium Notes. Trilium Notes 中文适配, 体验优化| <https://github.com/Nriver/trilium-translation>|
+| scoop install chmac | ChMac, a quick Windows batch CLI utility to change or randomize network adapter MAC address for security, or to work around usage limit of public Wi-Fi hotspots, either automatically or manually. The command, chmac.bat, changes MAC addresses in an easy-to-use interactive console alongside command-line parameters| <https://tech.wandersick.com/2019/06/chmac-windows-command-to-change-mac.html>|

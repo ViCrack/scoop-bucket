@@ -182,3 +182,4 @@ scoop update vi/screentogif
 | scoop install trilium-cn | Translation for Trilium Notes. Trilium Notes 中文适配, 体验优化| <https://github.com/Nriver/trilium-translation>|
 | scoop install chmac | ChMac, a quick Windows batch CLI utility to change or randomize network adapter MAC address for security, or to work around usage limit of public Wi-Fi hotspots, either automatically or manually. The command, chmac.bat, changes MAC addresses in an easy-to-use interactive console alongside command-line parameters| <https://tech.wandersick.com/2019/06/chmac-windows-command-to-change-mac.html>|
 | scoop install blueteamtools | 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。| <https://github.com/abc123info/BlueTeamTools>|
+| scoop install jyso | It can be either a JNDIExploit or a ysoserial| <https://github.com/qi4L/JYso>|

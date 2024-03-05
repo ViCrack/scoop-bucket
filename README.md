@@ -184,3 +184,4 @@ scoop update vi/screentogif
 | scoop install blueteamtools | 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。| <https://github.com/abc123info/BlueTeamTools>|
 | scoop install jyso | It can be either a JNDIExploit or a ysoserial| <https://github.com/qi4L/JYso>|
 | scoop install contextmenumanager | 纯粹的Windows右键菜单管理程序| <https://bluepointlilac.github.io/ContextMenuManager>|
+| scoop install vi/pixpinapp | 截图工具| <https://pixpinapp.com/>|

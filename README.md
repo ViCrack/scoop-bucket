@@ -185,3 +185,4 @@ scoop update vi/screentogif
 | scoop install jyso | It can be either a JNDIExploit or a ysoserial| <https://github.com/qi4L/JYso>|
 | scoop install contextmenumanager | 纯粹的Windows右键菜单管理程序| <https://bluepointlilac.github.io/ContextMenuManager>|
 | scoop install vi/pixpinapp | 截图工具| <https://pixpinapp.com/>|
+| scoop install vi/chat2db | AI驱动的数据库管理系统| <https://github.com/chat2db/Chat2DB/>|

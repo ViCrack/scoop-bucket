@@ -15,9 +15,12 @@
         }
     },
     "post_install": [
+        "ensure \"$persist_dir\" | Out-Null",
         "$existingRule = Get-NetFirewallRule -DisplayName YakitVi -ErrorAction SilentlyContinue",
         "if ($existingRule) {  sudo Set-NetFirewallRule -DisplayName YakitVi -Action Allow -Enabled True -Program \"$original_dir\\yakit.exe\" }",
-        "else { sudo New-NetFirewallRule -DisplayName YakitVi -Action Allow -Enabled True -Program \"$original_dir\\yakit.exe\" }"
+        "else { sudo New-NetFirewallRule -DisplayName YakitVi -Action Allow -Enabled True -Program \"$original_dir\\yakit.exe\" }",
+        "$filesToDelete = Get-ChildItem -Path $targetDirectory -Recurse | Where-Object { $_.Name -match '^yak-v[^.]*$'}",
+        "foreach ($file in $filesToDelete) {  Remove-Item $file.FullName -Force;  Write-Host \"已删除文件: $($file.FullName)\";  }"
     ],
     "persist": [
         "yakit-projects"

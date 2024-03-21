@@ -12,14 +12,10 @@
             "Jar Analyzer"
         ]
     ],
+    "extract_dir": "jar-analyzer-2.13-windows-full",
     "checkver": "github",
     "autoupdate": {
         "url": "https://jar-analyzer.oss-cn-hangzhou.aliyuncs.com/$version/jar-analyzer-$version-windows-full.zip",
-        "shortcuts": [
-            [
-                "jar-analyzer-$version-system-jre.exe",
-                "Jar-analyzer-system-jre"
-            ]
-        ]
+        "extract_dir": "jar-analyzer-$version-windows-full"
     }
 }

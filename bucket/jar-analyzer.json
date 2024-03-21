@@ -5,7 +5,7 @@
     "license": "Freeware",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/jar-analyzer.json",
     "url": "https://jar-analyzer.oss-cn-hangzhou.aliyuncs.com/2.13/jar-analyzer-2.13-windows-full.zip",
-    "hash": "fa86461b0d46e6b1cd0694c3251f05f7d9bdd65794ed567b71cf17ca119d7e1c",
+    "hash": "71ccfd94a8143c1f65ede48a97042e206272afafe9c56c65a7f91e4e4bb66640",
     "shortcuts": [
         [
             "start.exe",

@@ -187,3 +187,4 @@ scoop update vi/screentogif
 | scoop install vi/pixpinapp | 截图工具| <https://pixpinapp.com/>|
 | scoop install vi/chat2db | AI驱动的数据库管理系统| <https://github.com/chat2db/Chat2DB/>|
 | scoop install topmost | Some Windows Applications doesn’t offer an option to make itself topmost , that is to keep it above all other windows , Topmost control can do that| <https://www.sordum.org/9182/window-topmost-control-v1-3/>|
+| scoop install z-godzilla_ekp | 哥斯拉webshell管理工具二次开发规避流量检测设备| <https://github.com/kong030813/Z-Godzilla_ekp>|

@@ -26,12 +26,6 @@
     "uninstaller": {
         "script": "Remove-NetFirewallRule -DisplayName 'YakitVi' -ErrorAction SilentlyContinue"
     },
-    "bin": [
-        [
-            "$persist_dir\\yakit-projects\\yak-engine\\yak.exe",
-            "yak"
-        ]
-    ],
     "persist": "yakit-projects",
     "shortcuts": [
         [

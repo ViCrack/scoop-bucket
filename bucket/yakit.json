@@ -21,7 +21,7 @@
         "else { sudo New-NetFirewallRule -DisplayName YakitVi -Action Allow -Enabled True -Program \"$original_dir\\yakit.exe\" }",
         "$filesToDelete = Get-ChildItem -Path \"$persist_dir\\yakit-projects\\yak-engine\" -Recurse | Where-Object { $_.Name -match '^yak-v\\d'}",
         "foreach ($file in $filesToDelete) {  Remove-Item $file.FullName -Force;  Write-Host \"已删除旧版本yak.exe文件: $($file.FullName)\";  }",
-        "$resp = Invoke-WebRequest 'https://yaklang.oss-cn-beijing.aliyuncs.com/yak/latest/version.txt';\r\n        $latestVersion=$resp.Content;\r\n        $versionOutput = Invoke-Expression \"$persist_dir\\yakit-projects\\yak-engine\\yak.exe --version\";\r\nif ($versionOutput -match \"yak.exe version\") {\r\n    if ($versionOutput -like \"*$latestVersion*\") {\r\n        Write-Host \"需要升级 Yak...\"\r\n        Invoke-Expression \"$persist_dir\\yakit-projects\\yak.exe upgrade\"\r\n    } else {\r\n        Write-Host \"Yak 已经是最新版本。\"\r\n    }\r\n} else {\r\n    Write-Host \"未能检测到 Yak 的版本信息。\"\r\n}"
+        "$resp = Invoke-WebRequest 'https://yaklang.oss-cn-beijing.aliyuncs.com/yak/latest/version.txt';\r\n        $latestVersion=$resp.Content;\r\n        $versionOutput = Invoke-Expression \"$persist_dir\\yakit-projects\\yak-engine\\yak.exe --version\";\r\nif ($versionOutput -match \"yak.exe version\") {\r\n    if ($versionOutput -notlike \"*$latestVersion*\") {\r\n        Write-Host \"需要升级 Yak...\"\r\n        Invoke-Expression \"$persist_dir\\yakit-projects\\yak-engine\\yak.exe upgrade\"\r\n    } else {\r\n        Write-Host \"Yak 已经是最新版本。\"\r\n    }\r\n} else {\r\n    Write-Host \"未能检测到 Yak 的版本信息。\"\r\n}"
     ],
     "uninstaller": {
         "script": "Remove-NetFirewallRule -DisplayName 'YakitVi' -ErrorAction SilentlyContinue"

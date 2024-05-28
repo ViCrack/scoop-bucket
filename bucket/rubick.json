@@ -1,13 +1,13 @@
 {
-    "version": "4.2.3",
+    "version": "4.2.4",
     "description": "Electron based open source toolbox, free integration of rich plug-ins. 基于 electron 的开源工具箱，自由集成丰富插件。",
     "homepage": "https://rubickcenter.github.io",
     "license": "MIT",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/rubick.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.2.3/rubick-Setup-4.2.3-x64.exe#/dl.7z",
-            "hash": "e4de0892c1da134696559e809fd3670389e2310c1ccd64205e032590e7514753",
+            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.2.4/rubick-Setup-4.2.4-x64.exe#/dl.7z",
+            "hash": "c3ec38735bf7f9578818b277a68fcc3cb68126e388d1bce8e9f8ef721be07b79",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"

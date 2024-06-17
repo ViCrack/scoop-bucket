@@ -189,3 +189,4 @@ scoop update vi/screentogif
 | scoop install topmost | Some Windows Applications doesn’t offer an option to make itself topmost , that is to keep it above all other windows , Topmost control can do that| <https://www.sordum.org/9182/window-topmost-control-v1-3/>|
 | scoop install z-godzilla_ekp | 哥斯拉webshell管理工具二次开发规避流量检测设备| <https://github.com/kong030813/Z-Godzilla_ekp>|
 | scoop install feishurevokemsgpatcher | 飞书消息防撤回补丁PC版（别名：飞书电脑版防撤回插件，也叫：飞书防撤回补丁、飞书消息防撤回补丁）由“吾乐吧软件站”开发制作，本程序支持飞书7.13.8及以上版本，主要功能如下：1、支持文字消息防撤回 2、支持撤回消息提醒 3、支持消息永不已读（仅支持飞书7.15.9及以上版本） 4、支持屏蔽飞书升级 5、支持在线更新检测| <https://github.com/flydoos/FeiShuRevokeMsgPatcher>|
+| scoop install winasar | WinASAR文件管理工具（也叫：WinASAR文件压缩/解压工具、WinASAR文件打包/解包工具）由“吾乐吧软件站”开发制作，这是一款高仿 WinRAR 制作的 Electron ASAR 文件管理工具，部分功能也参考了 7-Zip。本程序主要功能用于 .Asar 文件的压缩与解压，除此之外，还支持轻量级 Windows 资源管理器功能，本程序适用于 Windows 下所有 Electron ASAR 文件。| <https://github.com/flydoos/WinASAR>|

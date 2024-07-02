@@ -22,6 +22,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG.v$version.jar"
+        "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG-gui-obf-$version.jar"
     }
 }

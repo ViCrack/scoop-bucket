@@ -192,3 +192,4 @@ scoop update vi/screentogif
 | scoop install winasar | WinASAR文件管理工具（也叫：WinASAR文件压缩/解压工具、WinASAR文件打包/解包工具）由“吾乐吧软件站”开发制作，这是一款高仿 WinRAR 制作的 Electron ASAR 文件管理工具，部分功能也参考了 7-Zip。本程序主要功能用于 .Asar 文件的压缩与解压，除此之外，还支持轻量级 Windows 资源管理器功能，本程序适用于 Windows 下所有 Electron ASAR 文件。| <https://github.com/flydoos/WinASAR>|
 | scoop install glider | glider is a forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features(like dnsmasq)| <https://github.com/nadoo/glider>|
 | scoop install hide-from-uninstall-list | Hide From Uninstall List is a Portable freeware Application to remove an item from the Programs And features list without uninstalling it| <https://www.sordum.org/11081/hide-from-uninstall-list-v1-1/>|
+| scoop install wechatbaktool | 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。| <https://github.com/SuxueCode/WechatBakTool>|

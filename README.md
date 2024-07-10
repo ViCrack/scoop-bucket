@@ -193,3 +193,4 @@ scoop update vi/screentogif
 | scoop install glider | glider is a forward proxy with multiple protocols support, and also a dns/dhcp server with ipset management features(like dnsmasq)| <https://github.com/nadoo/glider>|
 | scoop install hide-from-uninstall-list | Hide From Uninstall List is a Portable freeware Application to remove an item from the Programs And features list without uninstalling it| <https://www.sordum.org/11081/hide-from-uninstall-list-v1-1/>|
 | scoop install wechatbaktool | 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。| <https://github.com/SuxueCode/WechatBakTool>|
+| scoop install evilpot | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc   使用之前务必先阅读文档| <https://docs.xray.cool>|

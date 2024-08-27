@@ -47,7 +47,7 @@
     ],
     "checkver": {
         "url": "https://github.com/yaklang/yakit/releases/latest",
-        "regex": "/releases/tag/(?:v|V)?([\\d.]+(-\\d+)?)"
+        "regex": "/releases/tag/(?:v|V)?([\\d.]+(-\\d+)?(-\\w+)?)"
     },
     "autoupdate": {
         "architecture": {

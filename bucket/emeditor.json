@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.emeditor.info/emed64_24.3.2_portable.zip",
-            "hash": "d003cc67d9830e50ec00b95c3e8b850c0847f283c76b1ff63f2328f166721c12"
+            "hash": "bc71249bde4477c6b93da1b68426f670fa267d96474852d0490b6b5ff9bd6044"
         },
         "32bit": {
             "url": "https://download.emeditor.info/emed32_24.3.2_portable.zip",

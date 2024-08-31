@@ -197,3 +197,4 @@ scoop update vi/screentogif
 | scoop install struts2vulsscantools | 1、点击“检测漏洞”，会自动检测该URL是否存在S2-001、S2-005、S2-009、S2-013、S2-016、S2-019、S2-020/021、S2-032、S2-037、DevMode、S2-045/046、S2-052、S2-048、S2-053、S2-057、S2-061、S2相关log4j2十余种漏洞。  2、“批量验证”，（为防止批量geshell，此功能已经删除，并不再开发）。  3、S2-020、S2-021仅提供漏洞扫描功能，因漏洞利用exp很大几率造成网站访问异常，本程序暂不提供。  4、对于需要登录的页面，请勾选“设置全局Cookie值”，并填好相应的Cookie，程序每次发包都会带上Cookie。  5、作者对不同的struts2漏洞测试语句做了大量修改，执行| <https://github.com/abc123info/Struts2VulsScanTools>|
 | scoop install decrypttools | DecryptTools-综合解密| <https://github.com/wafinfo/DecryptTools>|
 | scoop install tls_proxy | A lightweight reverse proxy server that converts TLS traffic to TCP, allowing secure communication between clients and upstream servers| <https://github.com/phith0n/tls_proxy>|
+| scoop install mitan | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能| <https://github.com/kkbo8005/mitan>|

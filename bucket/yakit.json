@@ -27,7 +27,7 @@
         "if ($versionOutput -match \"yak.exe version\") {",
         "   if ($versionOutput -notlike \"*$latestVersion*\") {",
         "     Write-Host \"需要升级 Yak...\"",
-        "      (new-object System.Net.WebClient).DownloadFile(\"https://yaklang.oss-cn-beijing.aliyuncs.com/yak/latest/yak_windows_amd64.exe','$persist_dir\\yakit-projects\\yak-engine\\yak.exe\");",
+        "      (new-object System.Net.WebClient).DownloadFile(\"https://yaklang.oss-cn-beijing.aliyuncs.com/yak/latest/yak_windows_amd64.exe\",\"$persist_dir\\yakit-projects\\yak-engine\\yak.exe\");",
         "  } else {",
         "    Write-Host \"Yak 已经是最新版本。\"",
         " }",

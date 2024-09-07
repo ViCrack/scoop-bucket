@@ -4,6 +4,6 @@
     "homepage": "https://github.com/ViCrack/scoop-bucket",
     "license": "Apache-2.0",
     "url": "https://raw.githubusercontent.com/ViCrack/scoop-bucket/master/script/ja.cmd",
-    "hash": "537433e04ec2bd91aaf39a4a4d90247625678d5ca1927cfa65eee1a602dd2225",
+    "hash": "f23630244669f50d11b7f69d2fe8807d62085ce24d793dcbc590f2e7770aa7cf",
     "bin": "ja.cmd"
 }

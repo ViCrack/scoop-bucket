@@ -1,17 +1,17 @@
 {
-    "version": "2.5.19",
+    "version": "2.6.23",
     "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
     "homepage": "https://apifox.com",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/apifox.json",
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://cdn.apifox.cn/download/2.5.19/Apifox-windows-x86-2.5.19.exe#/dl.7z",
-            "hash": "b05b42ef1554057ae83e98f85a046d7065f7c9fae78cbb00e3c639b923953011"
+            "url": "https://file-assets.apifox.com/download/2.6.23/Apifox-windows-x86-2.6.23.exe#/dl.7z",
+            "hash": "d41416e965bf869510217bdb8c9dd1a0bf3d58dfad829e8ff42612f415381557"
         },
         "64bit": {
-            "url": "https://cdn.apifox.cn/download/2.5.19/Apifox-2.5.19.exe#/dl.7z",
-            "hash": "db8c1a1f3a9c55f7b13c9f783f3094d663af3cd4cc39d10c7ae4991e13369b1b"
+            "url": "https://file-assets.apifox.com/download/2.6.23/Apifox-2.6.23.exe#/dl.7z",
+            "hash": "724de5518d06e488e0706369eca0ab6d384b0860e313222c9249099faff04f6f"
         }
     },
     "pre_install": [
@@ -32,16 +32,16 @@
         "Wait-Process -Name 'ApifoxAppAgent' -ErrorAction SilentlyContinue -Timeout 30"
     ],
     "checkver": {
-        "url": "https://apifox.com/help/app/changelog/",
-        "regex": "\\d\">([\\d.]+)<a href=\"#_"
+        "url": "https://apifox.com/help/release/changelog.json",
+        "regex": "\"version\": \"([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://cdn.apifox.cn/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
+                "url": "https://file-assets.apifox.com/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
             },
             "64bit": {
-                "url": "https://cdn.apifox.cn/download/$version/Apifox-$version.exe#/dl.7z"
+                "url": "https://file-assets.apifox.com/download/$version/Apifox-$version.exe#/dl.7z"
             }
         }
     }

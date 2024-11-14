@@ -199,3 +199,4 @@ scoop update vi/screentogif
 | scoop install tls_proxy | A lightweight reverse proxy server that converts TLS traffic to TCP, allowing secure communication between clients and upstream servers| <https://github.com/phith0n/tls_proxy>|
 | scoop install mitan | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能| <https://github.com/kkbo8005/mitan>|
 | scoop install reality | grs内网穿透工具通过reality协议隐藏特征| <https://github.com/howmp/reality>|
+| scoop install web-chains | Web 版 Java Payload 生成与漏洞利用工具，提供 Java 反序列化、Hessian 1/2 反序列化等 Payload 生成，以及 JNDI Exploit、Fake Mysql Exploit、JRMPListener 等相关利用| <https://github.com/Java-Chains/web-chains>|

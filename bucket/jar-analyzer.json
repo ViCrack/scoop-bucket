@@ -12,7 +12,7 @@
             "Jar Analyzer"
         ]
     ],
-    "extract_dir": "jar-analyzer-2.13-windows-full",
+    "extract_dir": "jar-analyzer-4.1-windows-full",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/$version/jar-analyzer-$version-windows-full.zip",

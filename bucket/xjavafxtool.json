@@ -19,6 +19,6 @@
     "persist": "logs",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/864381832/xJavaFxTool/releases/download/$version/xJavaFxTool_$version-windows-x64.exe"
+        "url": "https://github.com/864381832/xJavaFxTool/releases/download/$version/xJavaFxTool-$version-windows-x64.exe"
     }
 }

@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/1Remote/1Remote/releases/download/$version/PRemoteM.zip"
+                "url": "https://github.com/1Remote/1Remote/releases/download/$version/1Remote-$version-net6-x64.zip"
             }
         }
     }

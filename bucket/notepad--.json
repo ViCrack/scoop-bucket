@@ -20,12 +20,12 @@
     "checkver": {
         "url": "https://api.github.com/repos/cxasm/notepad--/releases/latest",
         "jsonpath": "$..browser_download_url",
-        "regex": "/Notepad--v([\\d.]+)\\.0-win10-\\.zip"
+        "regex": "/Notepad--v([\\d.]+)-"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cxasm/notepad--/releases/download/notepad-v$version/Notepad--v$version.0-win10-.zip",
+                "url": "https://github.com/cxasm/notepad--/releases/download/notepad-v$version/Notepad--v$version.0-win10-portable.zip",
                 "extract_dir": "Notepad--v$version.0-win10-免安装版"
             }
         }

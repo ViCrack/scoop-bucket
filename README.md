@@ -201,3 +201,4 @@ scoop update vi/screentogif
 | scoop install web-chains | Web 版 Java Payload 生成与漏洞利用工具，提供 Java 反序列化、Hessian 1/2 反序列化等 Payload 生成，以及 JNDI Exploit、Fake Mysql Exploit、JRMPListener 等相关利用| <https://github.com/Java-Chains/web-chains>|
 | scoop install 7z-build-nsis | 7-zip build and package script with nsis script decompiling using ms visual studio| <https://github.com/myfreeer/7z-build-nsis>|
 | scoop install gost | GO Simple Tunnel - a simple tunnel written in golang| <https://github.com/ginuerzh/gost>|
+| scoop install frpc-desktop | frp跨平台桌面客户端，可视化配置，轻松实现内网穿透！ 支持所有frp版本| <https://jwinks.com/p/frp/>|

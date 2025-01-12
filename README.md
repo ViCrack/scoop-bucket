@@ -202,3 +202,4 @@ scoop update vi/screentogif
 | scoop install 7z-build-nsis | 7-zip build and package script with nsis script decompiling using ms visual studio| <https://github.com/myfreeer/7z-build-nsis>|
 | scoop install gost | GO Simple Tunnel - a simple tunnel written in golang| <https://github.com/ginuerzh/gost>|
 | scoop install frpc-desktop | frp跨平台桌面客户端，可视化配置，轻松实现内网穿透！ 支持所有frp版本| <https://jwinks.com/p/frp/>|
+| scoop install mootool | Handy tool set for developers. 开发者常备小工具| <https://mootool.luoboduner.com/>|

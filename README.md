@@ -203,3 +203,4 @@ scoop update vi/screentogif
 | scoop install gost | GO Simple Tunnel - a simple tunnel written in golang| <https://github.com/ginuerzh/gost>|
 | scoop install frpc-desktop | frp跨平台桌面客户端，可视化配置，轻松实现内网穿透！ 支持所有frp版本| <https://jwinks.com/p/frp/>|
 | scoop install mootool | Handy tool set for developers. 开发者常备小工具| <https://mootool.luoboduner.com/>|
+| scoop install certimate | 开源的SSL证书管理工具，可以帮助你自动申请、部署SSL证书，并在证书即将过期时自动续期。An open-source SSL certificate management tool that helps you automatically apply for and deploy SSL certificates, as well as automatically renew them when they are about to expire| <https://docs.certimate.me>|

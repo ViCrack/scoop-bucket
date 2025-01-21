@@ -1,20 +1,20 @@
 {
-    "version": "0.107.40",
+    "version": "0.107.55",
     "description": "AdGuardHome. Network-wide ads & trackers blocking DNS server",
     "homepage": "https://github.com/AdguardTeam/AdGuardHome",
     "notes": "Running as a service: AdGuardHome -s install (https://adguard-dns.io/kb/zh-CN/adguard-home/getting-started/#service)",
     "license": "GPL-3.0-or-later",
-    "changelog": "https://github.com/AdguardTeam/AdGuardHome/releases",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.40/AdGuardHome_windows_amd64.zip",
+            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.55/AdGuardHome_windows_amd64.zip",
             "hash": "4f5554cec1b836a611b5753bd3490e8a564ef0000d55b53c4952a5afb96f7dec"
         },
         "32bit": {
-            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.40/AdGuardHome_windows_386.zip",
+            "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.55/AdGuardHome_windows_386.zip",
             "hash": "253fae346e487052c1530d15771d54cb8d306256096de086816d6bd34f1739c1"
         }
     },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\AdGuardHome.yaml\")) { New-Item \"$dir\\AdGuardHome.yaml\" | Out-Null }",
     "pre_uninstall": [
         "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
         "",

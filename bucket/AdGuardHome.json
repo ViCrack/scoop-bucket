@@ -23,7 +23,10 @@
     ],
     "extract_dir": "AdGuardHome",
     "bin": "AdGuardHome.exe",
-    "persist": "data",
+    "persist": [
+        "data",
+        "AdGuardHome.yaml"
+    ],
     "checkver": {
         "github": "https://github.com/AdguardTeam/AdGuardHome"
     },

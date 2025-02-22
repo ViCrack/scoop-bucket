@@ -12,7 +12,7 @@
             "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v0.9.27/Cherry-Studio-0.9.27-portable.exe#/dl.7z",
             "hash": "57bfdd87927b04c8281cc06d8ebb1ceb915339c9015d552d1447b9332fd21684",
             "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"; if (!(Test-Path \"$persist_dir\\vicrack.test\")) { }",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
             ]
         }

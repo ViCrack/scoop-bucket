@@ -206,3 +206,4 @@ scoop update vi/screentogif
 | scoop install certimate | 开源的SSL证书管理工具，可以帮助你自动申请、部署SSL证书，并在证书即将过期时自动续期。An open-source SSL certificate management tool that helps you automatically apply for and deploy SSL certificates, as well as automatically renew them when they are about to expire| <https://docs.certimate.me>|
 | scoop install AdGuardHome | AdGuard Home. Network-wide ads & trackers blocking DNS server| <https://github.com/AdguardTeam/AdGuardHome>|
 | scoop install cherry-studio | Cherry Studio is a desktop client that supports for multiple LLM providers. Support deepseek-r1| <https://cherry-ai.com>|
+| scoop install toolsfx | 跨平台密码学工具箱。包含编解码，编码转换，加解密， 哈希，MAC，签名，大数运算，压缩，二维码功能，CTF等功能。| <https://github.com/Leon406/ToolsFx>|

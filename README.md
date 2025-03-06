@@ -207,3 +207,4 @@ scoop update vi/screentogif
 | scoop install AdGuardHome | AdGuard Home. Network-wide ads & trackers blocking DNS server| <https://github.com/AdguardTeam/AdGuardHome>|
 | scoop install cherry-studio | Cherry Studio is a desktop client that supports for multiple LLM providers. Support deepseek-r1| <https://cherry-ai.com>|
 | scoop install toolsfx | 跨平台密码学工具箱。包含编解码，编码转换，加解密， 哈希，MAC，签名，大数运算，压缩，二维码功能，CTF等功能。| <https://github.com/Leon406/ToolsFx>|
+| scoop install memshellparty | Java 内存马开聚会| <https://party.memshell.news>|

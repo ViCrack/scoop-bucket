@@ -1,0 +1,29 @@
+{
+    "version": "1.5.0",
+    "description": "Java 内存马开聚会",
+    "homepage": "https://party.memshell.news",
+    "license": "MIT",
+    "notes": https://github.com/vicrack/scoop-bucket",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/ReaJason/MemShellParty/releases/download/v1.5.0/boot-1.5.0.jar",
+    "hash": "4d09c318ef2aa26d264aa48e954b0ebffd4aeeab3a181971a13caa621a5ba01e",
+    "pre_install": "\n$batContent = @\"\n@echo off\n@setlocal\n\nset \"jdk_path=\"\n\nif defined JDK_19_HOME (\n    set \"jdk_path=%JDK_19_HOME%\\bin\\\"\n) else if defined JDK_17_HOME (\n    set \"jdk_path=%JDK_17_HOME%\\bin\\\"\n) else if defined JDK_11_HOME (\n    set \"jdk_path=%JDK_11_HOME%\\bin\\\"\n) else if defined JAVA_HOME (\n    set \"jdk_path=%JAVA_HOME%\\bin\\\"\n) \n\nif not exist \"%jdk_path%javaw.exe\" (\n    echo ERROR: Java executable not found in %jdk_path%.\n    exit /b 1\n)\n\nset \"javafx_args=\"\nif defined JAVAFX_HOME (\n    if exist \"%JAVAFX_HOME%\\lib\" (\n        set \"javafx_args=--module-path %JAVAFX_HOME%\\lib --add-modules javafx.controls,javafx.fxml\"\n    ) else (\n        echo WARNING: JAVAFX_HOME is defined but the lib directory is missing.\n    )\n)\n\n@pushd %~dp0\n@start \"\" \"%jdk_path%javaw.exe\" %javafx_args% -jar \"boot-1.5.0.jar\" %*\n@popd\n\nendlocal\n\"@\n\n$path = \"$dir/memshellparty.bat\"\nSet-Content -Path $path -Value $batContent -Encoding Ascii\n",
+    "bin": "memshellparty.bat",
+    "shortcuts": [
+        [
+            "memshellparty.bat",
+            "Memshellparty"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ReaJason/MemShellParty"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ReaJason/MemShellParty/releases/download/v$version/boot-$version.jar"
+    }
+}

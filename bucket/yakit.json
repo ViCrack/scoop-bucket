@@ -1,13 +1,13 @@
 {
-    "version": "1.4.2-beta1",
+    "version": "1.4.1-0303",
     "description": " Cyber Security ALL-IN-ONE Platform 交互式应用安全测试平台 ",
     "homepage": "https://github.com/yaklang/yakit",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/yakit.json，会将yakit自动添加到防火墙允许规则中",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://yaklang.oss-cn-beijing.aliyuncs.com/yak/1.4.2-beta1/Yakit-1.4.2-beta1-windows-amd64.exe#/dl.7z",
-            "hash": "a67cb51597b67821ed2be026a0143dff072c2341c608fc4ea4f48a1a368315a1",
+            "url": "https://yaklang.oss-cn-beijing.aliyuncs.com/yak/1.4.1-0303/Yakit-1.4.1-0303-windows-amd64.exe#/dl.7z",
+            "hash": "b7d9e536905e9aa50efa3c39ae2824a75e7bbd42086c7fb1df3d3af85ce176f9",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"

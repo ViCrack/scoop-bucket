@@ -198,7 +198,6 @@ scoop update vi/screentogif
 | scoop install tls_proxy | A lightweight reverse proxy server that converts TLS traffic to TCP, allowing secure communication between clients and upstream servers| <https://github.com/phith0n/tls_proxy>|
 | scoop install mitan | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能| <https://github.com/kkbo8005/mitan>|
 | scoop install reality | grs内网穿透工具通过reality协议隐藏特征| <https://github.com/howmp/reality>|
-| scoop install web-chains | Web 版 Java Payload 生成与漏洞利用工具，提供 Java 反序列化、Hessian 1/2 反序列化等 Payload 生成，以及 JNDI Exploit、Fake Mysql Exploit、JRMPListener 等相关利用| <https://github.com/Java-Chains/web-chains>|
 | scoop install 7z-build-nsis | 7-zip build and package script with nsis script decompiling using ms visual studio| <https://github.com/myfreeer/7z-build-nsis>|
 | scoop install gost | GO Simple Tunnel - a simple tunnel written in golang| <https://github.com/ginuerzh/gost>|
 | scoop install frpc-desktop | frp跨平台桌面客户端，可视化配置，轻松实现内网穿透！ 支持所有frp版本| <https://jwinks.com/p/frp/>|
@@ -208,3 +207,4 @@ scoop update vi/screentogif
 | scoop install cherry-studio | Cherry Studio is a desktop client that supports for multiple LLM providers. Support deepseek-r1| <https://cherry-ai.com>|
 | scoop install toolsfx | 跨平台密码学工具箱。包含编解码，编码转换，加解密， 哈希，MAC，签名，大数运算，压缩，二维码功能，CTF等功能。| <https://github.com/Leon406/ToolsFx>|
 | scoop install memshellparty | Java 内存马开聚会| <https://party.memshell.news>|
+| scoop install java-chains | vulhub Vulnerability Reproduction Designated Platform| <https://java-chains.vulhub.org>|

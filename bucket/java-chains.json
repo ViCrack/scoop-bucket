@@ -10,7 +10,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/vulhub/java-chains/releases/download/1.4.1/java-chains-1.4.1.jar",
+    "url": "https://github.com/vulhub/java-chains/releases/download/1.4.1/java-chains-1.4.1.jar#java-chains.jar",
     "hash": "019913d90ed8cf6003d35eeed3ac5d5afe53887eb18619dacc7993d575d4432d",
     "pre_install": [
         "",
@@ -49,7 +49,7 @@
         ")",
         "",
         "@pushd %~dp0",
-        "@\"%jdk_path%java.exe\" %javafx_args% %addOpens% -jar \"java-chains-1.4.0.jar\" %*",
+        "@\"%jdk_path%java.exe\" %javafx_args% %addOpens% -jar \"java-chains.jar\" %*",
         "@popd",
         "",
         "endlocal",
@@ -70,6 +70,6 @@
         "github": "https://github.com/vulhub/java-chains"
     },
     "autoupdate": {
-        "url": "https://github.com/vulhub/java-chains/releases/download/$version/java-chains-$version.jar"
+        "url": "https://github.com/vulhub/java-chains/releases/download/$version/java-chains-$version.jar#java-chains.jar"
     }
 }

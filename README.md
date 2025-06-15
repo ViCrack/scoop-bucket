@@ -208,3 +208,4 @@ scoop update vi/screentogif
 | scoop install toolsfx | 跨平台密码学工具箱。包含编解码，编码转换，加解密， 哈希，MAC，签名，大数运算，压缩，二维码功能，CTF等功能。| <https://github.com/Leon406/ToolsFx>|
 | scoop install memshellparty | Java 内存马开聚会| <https://party.memshell.news>|
 | scoop install java-chains | vulhub Vulnerability Reproduction Designated Platform| <https://java-chains.vulhub.org>|
+| scoop install xxl-job-attack | xxl-job漏洞综合利用工具| <https://github.com/pureqh/xxl-job-attack>|

@@ -27,8 +27,8 @@
     ],
     "persist": "UserData",
     "checkver": {
-        "url": "https://apifox.com/help/release/changelog.json",
-        "regex": "\"version\": \"([\\d.]+)\""
+        "url": "https://api.apifox.cn/api/v1/configs/client-updates/2.7.29/win64/latest.yml?",
+        "regex": "version:\\s*([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

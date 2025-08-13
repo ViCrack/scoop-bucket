@@ -42,6 +42,6 @@
         "regex": "PowerRun v([\\d.]+)</title>"
     },
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/power-run/PowerRun.zip"
+        "url": "https://www.sordum.org/files/download/power-run/PowerRun_v$version.zip"
     }
 }

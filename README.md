@@ -210,3 +210,4 @@ scoop update vi/screentogif
 | scoop install java-chains | vulhub Vulnerability Reproduction Designated Platform| <https://java-chains.vulhub.org>|
 | scoop install xxl-job-attack | xxl-job漏洞综合利用工具| <https://github.com/pureqh/xxl-job-attack>|
 | scoop install codescan | 一款轻量级匹配Sink点的代码审计扫描器，为了帮助红队过程中快速代码审计的小工具| <https://zjackky.github.io/post/develop-codescan-zwcz53.html>|
+| scoop install rshell | Rshell是一款开源的golang编写的支持多平台的C2框架，旨在帮助安服人员渗透测试、红蓝对抗。| <https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2>|

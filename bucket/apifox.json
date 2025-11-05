@@ -1,17 +1,17 @@
 {
-    "version": "2.7.46",
+    "version": "2.7.47",
     "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
     "homepage": "https://apifox.com",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/apifox.json",
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://file-assets.apifox.com/download/2.7.46/Apifox-windows-x86-2.7.46.exe#/dl.7z",
-            "hash": "b0efe434f592132151aee003864a05df1123682cd403d4a930c8cae1a0c837b9"
+            "url": "https://file-assets.apifox.com/download/2.7.47/Apifox-windows-x86-2.7.47.exe#/dl.7z",
+            "hash": "1b9d86f82374bb0a3f6556b06c5a12dc2788f5b7c2dfb5d34452c470e47755c2"
         },
         "64bit": {
-            "url": "https://file-assets.apifox.com/download/2.7.46/Apifox-2.7.46.exe#/dl.7z",
-            "hash": "7d26648a3f8b4599f83e6ee77085cecdcc54b80cff5fcf92776cd2221b653848"
+            "url": "https://file-assets.apifox.com/download/2.7.47/Apifox-2.7.47.exe#/dl.7z",
+            "hash": "46c7db2f7462b40b9d9723eb0c359917aec3fe42a00bc250328486da0ec77641"
         }
     },
     "pre_install": [

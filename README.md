@@ -213,3 +213,4 @@ scoop update vi/screentogif
 | scoop install rshell | Rshell是一款开源的golang编写的支持多平台的C2框架，旨在帮助安服人员渗透测试、红蓝对抗。| <https://github.com/Rubby2001/Rshell---A-Cross-Platform-C2>|
 | scoop install serializationdumper | A tool to dump Java serialization streams in a more human readable form| <https://github.com/NickstaDB/SerializationDumper>|
 | scoop install fapro | Fake Protocol Server| <https://github.com/fofapro/fapro>|
+| scoop install sublinkpro | 在 sublinkX/sublinkE 基础上二次开发，支持更多协议和高度自定义的开源订阅转换管理工具。支持节点测速、落地IP检测、高级重命名等实用功能。全新的UI，移动端操作友好。| <https://github.com/ZeroDeng01/sublinkPro>|

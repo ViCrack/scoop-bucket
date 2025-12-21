@@ -214,3 +214,4 @@ scoop update vi/screentogif
 | scoop install serializationdumper | A tool to dump Java serialization streams in a more human readable form| <https://github.com/NickstaDB/SerializationDumper>|
 | scoop install fapro | Fake Protocol Server| <https://github.com/fofapro/fapro>|
 | scoop install sublinkpro | 在 sublinkX/sublinkE 基础上二次开发，支持更多协议和高度自定义的开源订阅转换管理工具。支持节点测速、落地IP检测、高级重命名等实用功能。全新的UI，移动端操作友好。| <https://github.com/ZeroDeng01/sublinkPro>|
+| scoop install wechatdatabackup | 一键导出PC微信聊天记录工具| <https://github.com/git-jiadong/wechatDataBackup>|

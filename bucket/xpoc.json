@@ -1,5 +1,5 @@
 {
-    "version": "0.0.8",
+    "version": "0.1.0",
     "description": "xpoc 为供应链漏洞扫描设计的快速应急响应工具",
     "homepage": "https://github.com/chaitin/xpoc",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/xpoc.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chaitin/xpoc/releases/download/0.0.8/xpoc_windows_amd64.zip",
-            "hash": "00fc750e64013cee137d0882e853246c2020602e18375d5944498d69fb2c57f6",
+            "url": "https://github.com/chaitin/xpoc/releases/download/0.1.0/xpoc_windows_amd64.zip",
+            "hash": "06d06ffc1e46fbeff5f4053a04b1b16468d5808b81ecfcd98c15f7e767b32da6",
             "bin": [
                 [
                     "xpoc_windows_amd64.exe",

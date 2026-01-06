@@ -67,6 +67,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kkbo8005/mitan/releases/download/$version/mitan$version.zip"
+        "url": "https://github.com/kkbo8005/mitan/releases/download/$version/mitan.zip"
     }
 }

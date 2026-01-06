@@ -31,8 +31,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows.exe",
-                    "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows.exe"
+                    "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows-amd64.exe",
+                    "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows-amd64.exe"
                 ]
             }
         }

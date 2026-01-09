@@ -17,14 +17,8 @@
         }
     },
     "bin": [
-        [
-            "sliver-client_windows.exe",
-            "sliver-client"
-        ],
-        [
-            "sliver-server_windows.exe",
-            "sliver-server"
-        ]
+        ["sliver-client_windows-amd64.exe", "sliver-client"],
+        ["sliver-server_windows-amd64.exe", "sliver-server"]
     ],
     "checkver": "github",
     "autoupdate": {

@@ -216,3 +216,4 @@ scoop update vi/screentogif
 | scoop install sublinkpro | 在 sublinkX/sublinkE 基础上二次开发，支持更多协议和高度自定义的开源订阅转换管理工具。支持节点测速、落地IP检测、高级重命名等实用功能。全新的UI，移动端操作友好。| <https://github.com/ZeroDeng01/sublinkPro>|
 | scoop install wechatdatabackup | 一键导出PC微信聊天记录工具| <https://github.com/git-jiadong/wechatDataBackup>|
 | scoop install speedy | An open-source game speed modifier.[一款开源的游戏变速器]| <https://github.com/game1024/Speedy>|
+| scoop install wx_channels_download | 微信视频号下载器| <https://ltaoo.github.io/wx_channels_download/>|

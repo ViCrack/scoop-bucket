@@ -217,3 +217,4 @@ scoop update vi/screentogif
 | scoop install wechatdatabackup | 一键导出PC微信聊天记录工具| <https://github.com/git-jiadong/wechatDataBackup>|
 | scoop install speedy | An open-source game speed modifier.[一款开源的游戏变速器]| <https://github.com/game1024/Speedy>|
 | scoop install wx_channels_download | 微信视频号下载器| <https://ltaoo.github.io/wx_channels_download/>|
+| scoop install weflow | WeFlow - 一个本地的聊天导出和年度报告应用| <https://github.com/hicccc77/WeFlow>|

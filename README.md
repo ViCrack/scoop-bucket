@@ -220,3 +220,4 @@ scoop update vi/screentogif
 | scoop install weflow | WeFlow - 一个本地的聊天导出和年度报告应用| <https://github.com/hicccc77/WeFlow>|
 | scoop install chatlab | 本地化的聊天记录分析工具，通过 SQL 和AI Agent 回顾你的聊天记录。 A local-first chat analysis tool: Relive and explore your chat history powered by SQL and AI Agents| <https://chatlab.fun>|
 | scoop install z0scan | A lightweight active and passive scanner that combines the advantages of local and distributed models, supports dynamic external plugin import, and is dedicated to exploring web black-box vulnerabilities| <https://jiuzero.github.io>|
+| scoop install ling | Ling 是由 z0scan 而衍生的基于 PyQt5 与 QFluentWidgets 构建的图形化界面（GUI）  Ling is a graphical user interface (GUI) derived from z0scan, built based on PyQt5 and QFluentWidgets| <https://github.com/JiuZero/Ling>|

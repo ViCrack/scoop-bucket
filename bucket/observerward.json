@@ -9,7 +9,7 @@
     "bin": [
         [
             "i686-pc-windows-msvc.exe",
-            "observer_ward.exe"
+            "observerward.exe"
         ]
     ],
     "checkver": {

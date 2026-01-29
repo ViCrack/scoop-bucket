@@ -21,7 +21,7 @@
         "Downloads"
     ],
     "pre_install": [
-        "New-Item -ItemType File -Path \"$dir\\database.db\" -Force | Out-Null"
+        "if (!(Test-Path \"$dir\\database.db\")) { New-Item -ItemType File -Path \"$dir\\database.db\" -Force | Out-Null }"
     ],
     "checkver": "github",
     "autoupdate": {

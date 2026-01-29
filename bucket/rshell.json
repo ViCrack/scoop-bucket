@@ -12,9 +12,24 @@
     },
     "bin": [
         [
-            "Rshell_windows_amd64.exe",
-            "Rshell"
+            "rshell.bat",
+            "rshell"
         ]
+    ],
+    "persist": [
+        "database.db",
+        "Downloads"
+    ],
+    "pre_install": [
+        "@(",
+        "    '@echo off'",
+        "    'setlocal'",
+        "    'pushd \"%~dp0\"'",
+        "    '\"%~dp0Rshell_windows_amd64.exe\" %*'",
+        "    'popd'",
+        "    'endlocal'",
+        ") -join \"`r`n\" | Out-File -Encoding ASCII \"$dir\\rshell.bat\"",
+        "New-Item -ItemType File -Path \"$dir\\database.db\" -Force | Out-Null"
     ],
     "checkver": "github",
     "autoupdate": {

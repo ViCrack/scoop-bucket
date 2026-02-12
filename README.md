@@ -223,3 +223,4 @@ scoop update vi/screentogif
 | scoop install ling | Ling 是由 z0scan 而衍生的基于 PyQt5 与 QFluentWidgets 构建的图形化界面（GUI）  Ling is a graphical user interface (GUI) derived from z0scan, built based on PyQt5 and QFluentWidgets| <https://github.com/JiuZero/Ling>|
 | scoop install shiroexploit | Shiro反序列化漏洞一站式综合利用工具| <https://github.com/FightingLzn9/ShiroExploit>|
 | scoop install hyacinth | 一款java漏洞集合工具| <https://github.com/pureqh/Hyacinth>|
+| scoop install termix | Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities| <https://termix.site/>|

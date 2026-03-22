@@ -224,3 +224,4 @@ scoop update vi/screentogif
 | scoop install shiroexploit | Shiro反序列化漏洞一站式综合利用工具| <https://github.com/FightingLzn9/ShiroExploit>|
 | scoop install hyacinth | 一款java漏洞集合工具| <https://github.com/pureqh/Hyacinth>|
 | scoop install termix | Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities| <https://termix.site/>|
+| scoop install mayenano | Maye Nano 是一款专注于快速启动工具。我们深知效率的本质是减法而非加法，因此摒弃一切冗余，仅保留最极致的启动体验。它坚持绿色无污染设计，不产生系统垃圾，旨在为 Windows 提供一种更轻盈、更现代的操控方式。| <https://mayenano.arae.cc/>|

@@ -10,7 +10,7 @@
             "hash": "2e3e1b9489eb623f0e260eb0dcdb1037f31fe96039a1e639f70f2e1e2f99daf9"
         }
     },
-    "extract_dir": "2.7.0.260324",
+    "extract_dir": "MayeNano-2.7.0.260324",
     "shortcuts": [["Maye Nano.exe", "Maye Nano"]],
     "checkver": {
         "github": "https://github.com/25H/MayeNano"

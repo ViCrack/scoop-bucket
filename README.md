@@ -226,3 +226,4 @@ scoop update vi/screentogif
 | scoop install termix | Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities| <https://termix.site/>|
 | scoop install mayenano | Maye Nano 是一款专注于快速启动工具。我们深知效率的本质是减法而非加法，因此摒弃一切冗余，仅保留最极致的启动体验。它坚持绿色无污染设计，不产生系统垃圾，旨在为 Windows 提供一种更轻盈、更现代的操控方式。| <https://mayenano.arae.cc/>|
 | scoop install mdut-extend-release | MDUT-Extend(扩展版本)| <https://github.com/DeEpinGh0st/MDUT-Extend-Release>|
+| scoop install ztools | 一个高性能、可扩展的应用启动器和插件平台  uTools 的开源实现   支持 macOS 和 Windows| <https://github.com/ZToolsCenter/ZTools>|

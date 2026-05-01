@@ -1,5 +1,5 @@
 {
-    "version": "4.4.0",
+    "version": "4.4.2",
     "description": "WeFlow - 一个本地的聊天导出和年度报告应用",
     "homepage": "https://github.com/hicccc77/WeFlow",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "config location: C:\\Users\\<your username>\\\\AppData\\\\Roaming\\weflow - https://github.com/vicrack/scoop-bucket/blob/master/bucket/weflow.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hicccc77/WeFlow/releases/download/v4.4.0/WeFlow-4.4.0-x64-Setup.exe#/dl.7z",
-            "hash": "fd6b40590050e30397ce03e33f74b2e1c36fa88224ccb403ac16caeab801980b",
+            "url": "https://github.com/hicccc77/WeFlow/releases/download/v4.4.2/WeFlow-4.4.2-x64-Setup.exe#/dl.7z",
+            "hash": "b10aec2d8574e7a8c6543983d5234451247890b38d953865e517a6557ef6cdf9",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"

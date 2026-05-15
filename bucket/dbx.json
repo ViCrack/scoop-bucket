@@ -1,13 +1,13 @@
 {
-    "version": "0.5.7",
+    "version": "0.5.8",
     "description": "Open-source, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server",
     "homepage": "https://github.com/t8y2/dbx",
     "license": "Freeware",
     "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\com.dbx.app - https://github.com/vicrack/scoop-bucket/blob/master/bucket/dbx.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.7/dbx_0.5.7_x64-setup.exe#/dl.7z",
-            "hash": "262d13ea53c9a0eee8805faf288ff8967a5e207bf71c70eba180f175cc7177ea"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.5.8/dbx_0.5.8_x64-setup.exe#/dl.7z",
+            "hash": "eb995ebfd5040df2b066dec4dcabb1cce93de13fb840cb1674635a60ce287fc8"
         }
     },
     "shortcuts": [

@@ -1,5 +1,5 @@
 {
-    "version": "2.7.2",
+    "version": "2.8.0",
     "description": "Java 内存马开聚会",
     "homepage": "https://party.memshell.news",
     "license": "MIT",
@@ -10,8 +10,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/ReaJason/MemShellParty/releases/download/v2.7.2/boot-2.7.2.jar",
-    "hash": "8c0ca1a2b2d36fbc4ffee04bf501b8a9a51d419b951a34603eaa33d8702bf225",
+    "url": "https://github.com/ReaJason/MemShellParty/releases/download/v2.8.0/boot-2.8.0.jar",
+    "hash": "44a165bce640fbb68b8b37199ba672e79b1dd1d822fffee3811e1e29a0ee42b7",
     "pre_install": [
         "",
         "$batContent = @\"",

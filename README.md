@@ -229,3 +229,4 @@ scoop update vi/screentogif
 | scoop install ztools | 一个高性能、可扩展的应用启动器和插件平台  uTools 的开源实现   支持 macOS 和 Windows| <https://github.com/ZToolsCenter/ZTools>|
 | scoop install oxideterm | All-in-one terminal workspace — local shells, SSH, SFTP, remote IDE, AI agent, and file manager in a single native binary. Built with Tauri 2 and pure Rust SSH (no OpenSSL). Smart reconnect, MCP, RAG, plugins, 30+ themes, 11 languages| <https://oxideterm.app>|
 | scoop install dbx | Open-source, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server| <https://github.com/t8y2/dbx>|
+| scoop install codex-app-manager | 跨平台官方 Codex 桌面应用的安装 / 增量更新 / 干净卸载管理器，内置国内可达的镜像自更新。Cross-platform installer & updater for the official Codex desktop app — incremental updates, clean uninstall, China-reachable self-update| <https://codexapp.agentsmirror.com>|

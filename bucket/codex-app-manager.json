@@ -1,5 +1,5 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "跨平台官方 Codex 桌面应用的安装 / 增量更新 / 干净卸载管理器，内置国内可达的镜像自更新。Cross-platform installer & updater for the official Codex desktop app — incremental updates, clean uninstall, China-reachable self-update",
     "homepage": "https://codexapp.agentsmirror.com",
     "license": "MIT",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Wangnov/Codex-App-Manager/releases/download/v0.3.0/CodexAppManager_0.3.0_x64-setup.exe#/dl.7z",
-            "hash": "43d9ab148808694653200ca525013743005c3c74835902adafca355d00c9dda6"
+            "url": "https://github.com/Wangnov/Codex-App-Manager/releases/download/v0.3.1/CodexAppManager_0.3.1_x64-setup.exe#/dl.7z",
+            "hash": "de5ee37fd0f2fc8af5e06e8e6026f7eeb49b17c2730e89ce928b9bfac6bf6966"
         }
     },
     "shortcuts": [

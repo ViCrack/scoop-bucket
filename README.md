@@ -232,3 +232,4 @@ scoop update vi/screentogif
 | scoop install codex-app-manager | 跨平台官方 Codex 桌面应用的安装 / 增量更新 / 干净卸载管理器，内置国内可达的镜像自更新。Cross-platform installer & updater for the official Codex desktop app — incremental updates, clean uninstall, China-reachable self-update| <https://codexapp.agentsmirror.com>|
 | scoop install liveagent | A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!| <https://github.com/Stack-Cairn/LiveAgent>|
 | scoop install codey | 一个codex增强工具| <https://github.com/SuperGness/codey>|
+| scoop install cursor-byok | Infinite BYOK in Cursor  https://github.com/leookun/cursor-byok/releases| <https://github.com/leookun/cursor-byok>|

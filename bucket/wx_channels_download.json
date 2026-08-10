@@ -1,5 +1,5 @@
 {
-    "version": "260714",
+    "version": "260810",
     "description": "微信视频号下载器",
     "homepage": "https://ltaoo.github.io/wx_channels_download/",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/wx_channels_download.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ltaoo/wx_channels_download/releases/download/v260714/wx_video_download_v260714_windows_x86_64.zip",
-            "hash": "1f10ee0f4e6d72c345fc34ab20d93f4271ede07d01e98e9edef172309f8fe598"
+            "url": "https://github.com/ltaoo/wx_channels_download/releases/download/v260810/wx_video_download_v260810_windows_x86_64.zip",
+            "hash": "76ec23964bfff0b5f4a3d76f996458dad8aac72a0eb9a742ea1a0ae7e17e8f87"
         }
     },
     "bin": "wx_video_download.exe",

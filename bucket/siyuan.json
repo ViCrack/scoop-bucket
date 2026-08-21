@@ -1,13 +1,13 @@
 {
-    "version": "3.8.1",
+    "version": "3.8.2-alpha.2",
     "description": "SiYuan is a local-first personal knowledge management system, support fine-grained block-level reference and Markdown instant-render editing.",
     "homepage": "https://github.com/siyuan-note/siyuan",
     "license": {
         "identifier": "Unknown"
     },
     "depends": "7zip",
-    "url": "https://github.com/siyuan-note/siyuan/releases/download/v3.8.1/siyuan-3.8.1-win.exe#/dl.7z",
-    "hash": "50df27aa899491323035aee59b2b9b55df174e13b8dc3694f7c46d7f82770787",
+    "url": "https://github.com/siyuan-note/siyuan/releases/download/v3.8.2-alpha.2/siyuan-3.8.2-alpha.2-win.exe#/dl.7z",
+    "hash": "0becceeadd7e3694d9e04bfbade2e6aab71cd75221615eb86efdeb22fab5b31a",
     "pre_install": [
         "7z x \"$dir\\`$PLUGINSDIR\\*.7z\" -o\"$dir\\`$PLUGINSDIR\\siyuan\"",
         "Remove-Item -R -Path $dir\\resources",

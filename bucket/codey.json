@@ -1,13 +1,13 @@
 {
-    "version": "0.9.5",
+    "version": "0.9.6",
     "description": "一个codex增强工具",
     "homepage": "https://github.com/SuperGness/codey",
     "license": "AGPL-3.0-or-later",
     "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\fastctx - https://github.com/vicrack/scoop-bucket/blob/master/bucket/codey.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/SuperGness/codey/releases/download/v0.9.5/Codey-0.9.5-windows-x64-setup.exe#/dl.7z",
-            "hash": "e76ba1e7489d47635cc08ac9c0344b01322c0d9e204de08b72ae66b7b9647a85"
+            "url": "https://github.com/SuperGness/codey/releases/download/v0.9.6/Codey-0.9.6-windows-x64-setup.exe#/dl.7z",
+            "hash": "6dc6e1b0a2024469bddea7530fea957f3314dec0db50979d3fcaf4d47cb24e88"
         }
     },
     "shortcuts": [

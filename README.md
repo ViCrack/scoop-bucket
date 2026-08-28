@@ -233,3 +233,4 @@ scoop update vi/screentogif
 | scoop install liveagent | A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!| <https://github.com/Stack-Cairn/LiveAgent>|
 | scoop install codey | 一个codex增强工具| <https://github.com/SuperGness/codey>|
 | scoop install cursor-byok | Infinite BYOK in Cursor  https://github.com/leookun/cursor-byok/releases| <https://github.com/leookun/cursor-byok>|
+| scoop install desktop-cc-gui | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI| <https://www.mossx.ai/download>|

@@ -1,5 +1,5 @@
 {
-    "version": "2.1.1",
+    "version": "3.1.1",
     "description": "MDUT - Multiple Database Utilization Tools",
     "homepage": "https://github.com/SafeGroceryStore/MDUT",
     "license": "AGPL-3.0-or-later",
@@ -10,10 +10,12 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/SafeGroceryStore/MDUT/releases/download/v2.1.1/Multiple.Database.Utilization.Tools-2.1.1.zip",
-    "hash": "2e0927addab69b361b9fea22fc72d69796aefe48760f043932bbb3a5b699d533",
+    "url": "https://github.com/SafeGroceryStore/MDUT/releases/download/v3.1.1/v3.1.1_Multiple_Database_Utilization_Tools_windows_amd64.zip",
+    "hash": "f2e1258ca277aafa97851213084ea2d2d9c08e4dc4659c0c9d7851d1f24e4fbb",
     "pre_install": [
-        "Set-Content \"$dir\\mdut.bat\" '@pushd %~dp0\n@start javaw.exe -jar \"Multiple.Database.Utilization.Tools-$version-jar-with-dependencies.jar\" %*\n@popd' -Encoding Ascii",
+        "Set-Content \"$dir\\mdut.bat\" '@pushd %~dp0
+@start javaw.exe -jar \"Multiple.Database.Utilization.Tools-$version-jar-with-dependencies.jar\" %*
+@popd' -Encoding Ascii",
         "if (!(Test-Path \"$persist_dir\\vicr.yaml\")) { New-Item \"$dir\\vicr.yaml\" | Out-Null }"
     ],
     "bin": "mdut.bat",

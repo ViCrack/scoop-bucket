@@ -21,6 +21,10 @@
             "SiYuan"
         ]
     ],
+    "pre_uninstall": [
+        "Stop-Process -Name 'SiYuan' -Force -ErrorAction SilentlyContinue",
+        "Stop-Process -Name 'SiYuan-Kernel' -Force -ErrorAction SilentlyContinue"
+    ],
     "checkver": {
         "url": "https://github.com/siyuan-note/siyuan/releases",
         "regex": "/releases/tag/v(?<version>.+?)\""

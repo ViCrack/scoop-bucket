@@ -1,13 +1,13 @@
 {
-    "version": "0.3.7",
+    "version": "5.3.4",
     "description": "An intelligent and versatile general-purpose SQL client and reporting tool for databases which integrates ChatGPT capabilities.",
     "no": "https://github.com/ViCrack/scoop-bucket/blob/16f7fc72202815c38a0d7d0e66f0a9eb4980dba5/bucket/chat2db.json",
     "homepage": "https://github.com/chat2db/Chat2DB",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chat2db/Chat2DB/releases/download/v0.3.7/Chat2DB-Setup-0.3.7.exe",
-            "hash": "f5ee97eca19b31f8cd5e085d4c53ab07552a3176a4720fa62db029107a236473"
+            "url": "https://github.com/chat2db/Chat2DB/releases/download/v5.3.4/Chat2DB-Community-5.3.4.msi",
+            "hash": "e23ba2ae99142f980b5b2ea73a2f4c6948fb3016bc5c5b628103259f58e25417"
         }
     },
     "installer": {

@@ -16,6 +16,12 @@
     "persist": "KeyList.db",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/laomms/PidKeyTool/releases/download/$version/PidKeyTool.v$majorVersion.$minorVersion.exe"
+        "url": "https://github.com/laomms/PidKeyTool/releases/download/$version/PidKeyTool.V$version.exe",
+        "shortcuts": [
+            [
+                "PidKeyTool.V$version.exe",
+                "PidKey"
+            ]
+        ]
     }
 }

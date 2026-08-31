@@ -1,7 +1,7 @@
 {
     "version": "2.1.4",
     "description": "github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题. ",
-    "homepage": "https://github.com/dotnetcore/FastGithub",
+    "homepage": "https://github.com/creazyboyone/FastGithub",
     "license": "MIT",
     "depends": "sudo",
     "architecture": {
@@ -37,8 +37,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dotnetcore/FastGithub/releases/download/$version/fastgithub_win-x64.zip"
+                "url": "https://github.com/creazyboyone/FastGithub/releases/download/v$version/fastgithub-win-x64.zip"
             }
-        }
+        },
+        "extract_dir": "fastgithub-win-x64"
     }
 }

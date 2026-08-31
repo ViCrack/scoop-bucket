@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/luckjiawei/frpc-desktop/releases/download/v$version/Frpc-Desktop.$version.exe#/dl.7z"
+                "url": "https://github.com/luckjiawei/frpc-desktop/releases/download/v$version/Frpc-Desktop-$version.exe#/dl.7z"
             }
         }
     }

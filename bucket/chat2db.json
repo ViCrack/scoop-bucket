@@ -12,14 +12,15 @@
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive -Path \"$dir\\Chat2DB-Setup-$version.exe\" -Removal",
-            "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath $dir"
+            "$nsis = Get-ChildItem \"$dir\" -Filter \"Chat2DB-Setup-*.exe\" | Select-Object -First 1",
+            "if ($nsis) {",
+            "    Expand-7zipArchive -Path $nsis.FullName -Removal",
+            "    Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath $dir",
+            "    Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "    Remove-Item \"$dir\\`$R0\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
         ]
     },
-    "post_install": [
-        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-        "Remove-Item \"$dir\\`$R0\" -Force -Recurse"
-    ],
     "bin": "chat2db.exe",
     "shortcuts": [
         [
@@ -31,7 +32,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chat2db/Chat2DB/releases/download/v$version/Chat2DB-Setup-$version.exe"
+                "url": "https://github.com/chat2db/Chat2DB/releases/download/v$version/Chat2DB-Community-$version.msi"
             }
         }
     }

@@ -29,6 +29,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/SafeGroceryStore/MDUT/releases/download/v$version/Multiple.Database.Utilization.Tools-$version.zip"
+        "url": "https://github.com/SafeGroceryStore/MDUT/releases/download/v$version/v$version_Multiple_Database_Utilization_Tools_windows_amd64.zip"
     }
 }

@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version-windows-x64.exe#/dl.7z"
+                "url": "https://github.com/docmirror/dev-sidecar/releases/download/v$version/DevSidecar-$version-windows-x86_64.exe#/dl.7z"
             }
         }
     }

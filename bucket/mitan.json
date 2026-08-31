@@ -67,6 +67,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kkbo8005/mitan/releases/download/$version/mitan.zip"
+        "url": "https://github.com/kkbo8005/mitan/releases/download/$version/windows_x64-setup.exe#/dl.7z"
     }
 }

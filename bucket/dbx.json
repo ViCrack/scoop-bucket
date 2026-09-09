@@ -10,6 +10,10 @@
             "hash": "cf9263aa230f8a8b4c859f78092699045f2205dd91e4328b66bc4a35c2ec7dec"
         }
     },
+    "env_set": {
+        "DBX_DATA_DIR": "$dir\\data"
+    },
+    "persist": "data",
     "shortcuts": [["dbx.exe", "Dbx"]],
     "checkver": "github",
     "autoupdate": {

@@ -5,7 +5,7 @@
     "license": "MIT",
     "notes": [
         "config location: C:\\Users\\<your username>\\AppData\\Local\\com.zhukunpenglinyutong.ccgui",
-        "config location: C:\\Users\\<your username>\\\\AppData\\\\Roaming\\com.zhukunpenglinyutong.ccgui - https://github.com/vicrack/scoop-bucket/blob/master/bucket/desktop-cc-gui.json https://github.com/vicrack/scoop-bucket"
+        "config location: C:\\Users\\<your username>\\AppData\\Roaming\\com.zhukunpenglinyutong.ccgui - https://github.com/vicrack/scoop-bucket/blob/master/bucket/desktop-cc-gui.json https://github.com/vicrack/scoop-bucket"
     ],
     "architecture": {
         "64bit": {

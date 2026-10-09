@@ -236,3 +236,4 @@ scoop update vi/screentogif
 | scoop install desktop-cc-gui | Multi-engine AI coding desktop client (Tauri). Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI| <https://www.mossx.ai/download>|
 | scoop install open-vetta | Open-source, local-first AI agent for coding and real work. BYOK models, MCP, skills, plugins, workflows, and private knowledge bases| <https://www.openvetta.com>|
 | scoop install keysmith-switch-releases | Public updater artifacts for Keysmith Switch| <https://github.com/Jia-Ethan/keysmith-switch-releases>|
+| scoop install pebrel | AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows| <https://github.com/Kuddev/pebrel>|

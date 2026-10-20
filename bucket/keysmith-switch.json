@@ -1,13 +1,13 @@
 {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "description": "Public updater artifacts for Keysmith Switch",
     "homepage": "https://github.com/Jia-Ethan/keysmith-switch-releases",
     "license": "Freeware",
     "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\com.jia-ethan.keysmith-switch - https://github.com/vicrack/scoop-bucket/blob/master/bucket/keysmith-switch-releases.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jia-Ethan/keysmith-switch-releases/releases/download/v0.8.1/Keysmith.Switch_0.8.1_x64-setup.exe#/dl.7z",
-            "hash": "672129a74176806927895ebd40086d687afe5ccbfe884c51aef507bb75706e80"
+            "url": "https://github.com/Jia-Ethan/keysmith-switch-releases/releases/download/v0.8.2/Keysmith.Switch_0.8.2_x64-setup.exe#/dl.7z",
+            "hash": "f899467b4d544b4d9282bf0940043c517a0a12ac7fd7c08588060bb98a871e37"
         }
     },
     "bin": [

@@ -1,13 +1,13 @@
 {
-    "version": "2.0.11",
+    "version": "2.0.12",
     "description": "A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!",
     "homepage": "https://github.com/Stack-Cairn/LiveAgent",
     "license": "MIT",
     "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\com.xiaofei.liveagent - https://github.com/vicrack/scoop-bucket/blob/master/bucket/liveagent.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stack-Cairn/LiveAgent/releases/download/v2.0.11/LiveAgent-v2.0.11-Windows-x64-portable.zip",
-            "hash": "016181fc360d453fc2c1f3096b16aebb38e04bf771f988c53c688322ecb02d31"
+            "url": "https://github.com/Stack-Cairn/LiveAgent/releases/download/v2.0.12/LiveAgent-v2.0.12-Windows-x64-portable.zip",
+            "hash": "7b87b1859052ff963f2b9db64ea737649b1e38fc2fc402a345fd7aa86aac2bf6"
         }
     },
     "shortcuts": [

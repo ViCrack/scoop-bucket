@@ -11,7 +11,7 @@
         ]
     },
     "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV3.1/DecryptTools.jar",
-    "hash": "796bbb8f10564e4d46bae4b543d32bdbc3c01c29f2df0ccd44cd11aa9471cddc",
+    "hash": "d443bc725fe81ea1c081e1f1717f7e34fedd2cab14dbd7dccf7b40a66174dd1e",
     "pre_install": [
         "",
         "$batContent = @\"",

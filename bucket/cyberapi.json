@@ -1,5 +1,5 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "Native HTTP API client built with Rust and GPUI",
     "homepage": "https://github.com/vicanso/cyberapi",
     "license": "Apache-2.0",
@@ -9,11 +9,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vicanso/cyberapi/releases/download/v0.6.0/cyberapi-0.6.0-x86_64-pc-windows-msvc.zip",
-            "hash": "e90a508367564bc56020cbb5c7a558de8841b14c19f49228bca1d34cd922cbe0"
+            "url": "https://github.com/vicanso/cyberapi/releases/download/v0.6.1/cyberapi-0.6.1-x86_64-pc-windows-msvc.zip",
+            "hash": "1674fa0cc473bdff06262caddae2a76c381bd9dd060f778291864e8732862a36"
         }
     },
-    "extract_dir": "cyberapi-0.6.0-x86_64-pc-windows-msvc",
+    "extract_dir": "cyberapi-0.6.1-x86_64-pc-windows-msvc",
     "shortcuts": [
         [
             "cyberapi.exe",

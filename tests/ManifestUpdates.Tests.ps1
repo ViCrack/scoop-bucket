@@ -13,6 +13,16 @@ BeforeAll {
 }
 
 Describe 'Official download page regressions' {
+    It 'keeps the actual Behinder asset filename instead of assuming it equals its release tag' {
+        $manifest = Read-Manifest 'behinder'
+        $asset = 'https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.0.7/Behinder_v4.07.zip'
+        $match = [regex]::Match($asset, $manifest.checkver.regex)
+        $match.Success | Should -BeTrue
+        $match.Result($manifest.checkver.replace) | Should -Be '4.0.7'
+        $manifest.autoupdate.url.Replace('$matchUrl', $match.Groups['url'].Value) | Should -Be $asset
+        [regex]::IsMatch('https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.1%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91/Behinder_v4.1.t00ls.zip', $manifest.checkver.regex) | Should -BeFalse
+    }
+
     It 'reads the full EmEditor patch version from the official update metadata' {
         $manifest = Read-Manifest 'emeditor'
         $manifest.checkver.url | Should -Be 'https://download.emeditor.com/emeditor64.appinstaller'

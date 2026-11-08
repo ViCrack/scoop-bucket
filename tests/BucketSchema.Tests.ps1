@@ -27,8 +27,11 @@ Describe 'Previously invalid manifest schemas' {
 Describe 'Launcher generation after a manifest version update' {
     It '<Name> writes the current jar name without running the application' -TestCases @(
         @{ Name = 'decrypttools'; JarTemplate = 'DecryptTools.jar'; Java = 'javaw.exe' }
+        @{ Name = 'behinder'; JarTemplate = 'Behinder.jar'; Java = 'javaw.exe' }
         @{ Name = 'godzilla_ekp'; JarTemplate = 'godzilla_ekp{0}.jar'; Java = 'javaw.exe' }
         @{ Name = 'java-memshell-generator'; JarTemplate = 'jmg-all-{0}.jar'; Java = 'java.exe' }
+        @{ Name = 'java-echo-generator-release'; JarTemplate = 'jEG-gui-{0}.jar'; Java = 'javaw.exe' }
+        @{ Name = 'mysql-fake-server'; JarTemplate = 'fake-mysql-gui-{0}.jar'; Java = 'javaw.exe' }
         @{ Name = 'struts2vulsscantools'; JarTemplate = 'Struts2_{0}.jar'; Java = 'javaw.exe' }
     ) {
         param($Name, $JarTemplate, $Java)

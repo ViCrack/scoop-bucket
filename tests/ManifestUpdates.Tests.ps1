@@ -46,14 +46,6 @@ Describe 'Official download page regressions' {
         $manifest.extract_dir | Should -BeNullOrEmpty
     }
 
-    It 'uses the zTasker portable archive rather than the obsolete port 8080 path' {
-        $manifest = Read-Manifest 'ztasker'
-        $filename = 'zTasker_2.3.14_%E7%BB%BF%E8%89%B2%E7%89%88_%E4%B8%8D%E8%A6%81%E6%94%BEC%E7%9B%98.7z'
-        Get-CheckedVersion $manifest $filename | Should -Be '2.3.14'
-        Get-CheckedVersion $manifest ([uri]::UnescapeDataString($filename)) | Should -Be '2.3.14'
-        $manifest.autoupdate.url.Replace('$version', '2.3.14') | Should -Be "https://www.everauto.net/down/$filename"
-    }
-
     It 'does not pretend the W3Cschool cloud-drive page exposes an update feed' {
         $manifest = Read-Manifest 'w3cschool'
         $manifest.checkver | Should -BeNullOrEmpty

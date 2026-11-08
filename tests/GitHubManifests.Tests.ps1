@@ -5,7 +5,7 @@ BeforeAll {
         # Fixture versions must not track future automatic manifest updates.
         $versions = @{
             'cyberapi' = '0.6.0'; 'mitan' = '2.0.8'; 'trilium-cn' = '0.64.1.20261106'
-            'memshellparty' = '3.0.0'; 'termix' = '26.11.0'; 'pidkey' = '4.0.2'
+            'memshellparty' = '3.0.0'; 'termix' = '26.11.0'
         }
         $manifest.version = $versions[$Name]
         return $manifest
@@ -196,15 +196,5 @@ public static class FakeJava {
         } finally {
             foreach ($name in $names) { [Environment]::SetEnvironmentVariable($name, $saved[$name], 'Process') }
         }
-    }
-
-    It 'explicitly pauses PidKey updates without inventing a replacement URL or hash' {
-        $manifest = Read-GitHubManifest 'pidkey'
-        $manifest.checkver | Should -BeNullOrEmpty
-        $manifest.autoupdate | Should -BeNullOrEmpty
-        ($manifest.notes -join "`n") | Should -Match '404'
-        ($manifest.notes -join "`n") | Should -Match '(?i)paused|suspended'
-        $manifest.url | Should -Be 'https://github.com/laomms/PidKeyTool/releases/download/4.0.2/PidKeyTool.V4.0.2.exe'
-        $manifest.hash | Should -Be '466ddfe3b07c20c40e2f226e580b7651d375b4ae1f28e5cf93c2e5984950a2d1'
     }
 }

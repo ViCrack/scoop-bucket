@@ -6,6 +6,14 @@ on:
   workflow_dispatch:
 
 jobs:
+  test_excavator_hub:
+    name: Excavator dependency retries
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test hub installation retries (offline)
+        shell: pwsh
+        run: ./bin/test-excavator-hub.ps1
   test_powershell:
     name: WindowsPowerShell
     runs-on: windows-latest

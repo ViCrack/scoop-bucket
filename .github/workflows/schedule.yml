@@ -18,6 +18,23 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@main
+      - name: Prepare Scoop and hub
+        shell: pwsh
+        timeout-minutes: 10
+        run: |
+          # Match the paths used by ScoopInstaller/GithubActions.
+          $env:SCOOP = Join-Path $env:USERPROFILE 'SCOOP'
+          $env:SCOOP_GLOBAL = Join-Path $env:SystemDrive 'SCOOP'
+          $shims = Join-Path $env:SCOOP 'shims'
+          $globalShims = Join-Path $env:SCOOP_GLOBAL 'shims'
+          if (-not (Test-Path (Join-Path $shims 'scoop.ps1'))) {
+            Invoke-RestMethod 'https://raw.githubusercontent.com/ScoopInstaller/Install/master/install.ps1' -MaximumRetryCount 3 -RetryIntervalSec 10 | Invoke-Expression
+          }
+          $env:PATH = "$shims;$globalShims;$env:PATH"
+          $shims, $globalShims | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+          scoop config USE_EXTERNAL_7ZIP true
+          if ($LASTEXITCODE -ne 0) { throw 'Failed to configure Scoop.' }
+          ./bin/install-excavator-hub.ps1
       - name: Excavate
         uses: ScoopInstaller/GithubActions@main
         env:

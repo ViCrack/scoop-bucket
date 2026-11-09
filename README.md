@@ -43,7 +43,7 @@ scoop install vi/wub
 
 ---
 
-这个仓库已经添加 github ci 自动化，每隔几个小时会自动更新所有软件到最新版本
+这个仓库已添加 GitHub Actions 自动化，定期检查仍受支持的软件更新；上游下载源、版本检测或校验失败时，对应软件不会更新。任务状态成功不等于每个软件都更新成功。
 
 使用者可以自行在系统中加个定时任务，这样就能自动更新 scoop 软件了，当然也可以手工更新
 
@@ -59,6 +59,20 @@ scoop update vi/windterm
 scoop update vi/screentogif
 .......
 ```
+
+## 已停用的软件
+
+2026-11-09 核验后，以下清单移到根目录 [deprecated](deprecated)，不再提供 Scoop 新装或自动更新：
+
+| 软件 | 最后记录版本 | 原因与后续方式 |
+| --- | --- | --- |
+| PidKey | 4.0.2 | 原官方仓库及发布文件返回 404，未找到可验证的官方迁移或替代源。 |
+| zTasker | 2.2.8 | 旧包返回 404；官网 2.3.14 的直链存在 TLS 主机名校验失败或 403，尚无稳定、校验过的 Scoop 下载源。可自行参考[官网手动下载说明](https://www.everauto.net/wddown.html)，先备份数据；官方网盘的临时下载 URL 不写入清单。 |
+
+- 归档保留历史版本、URL、hash 和持久化配置用于追溯，不是可安装清单；不要通过归档路径强行安装，也不要关闭 TLS/hash 校验或改用不明镜像。
+- 同步本 bucket 不会删除已有程序、快捷方式或持久数据（PidKey 的 `KeyList.db`、zTasker 的 `User`/`Data`）。无需为了停用而卸载。
+- 已通过本 bucket 安装的用户可用 `scoop status` 查看停用状态，或用 `scoop info pidkey` / `scoop info ztasker` 查看归档说明。不要强制更新；人工迁移前先自行备份数据。
+- 恢复上架需有官方可信、稳定且 TLS 正常的下载源，完整下载计算 hash、核对包结构，并重新通过清单测试及联网验证。仅关闭更新检测或保留失效 URL 不视为恢复。
 
 ## 引用
 
@@ -160,7 +174,7 @@ scoop update vi/screentogif
 | scoop install java-memshell-generator       | 一款支持高度自定义的 Java 内存马生成工具                                                                                                                                                                                                                                                                                                                                                                 | <https://github.com/pen4uin/java-memshell-generator>          |
 | scoop install reqstress                     | a benchmarking&stressing tool that can send raw HTTP requests                                                                                                                                                                                                                                                                                                                                            | <https://github.com/utkusen/reqstress>                        |
 | scoop install tssh                          | 内置支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持选择（ 搜索 ）服务器进行登录。                                                                                                                                                                                                                                                                                                                           | <https://trzsz.github.io/>                                    |
-| scoop install pidkey                        | 密钥检测工具. Tool for check Microsoft Product Key                                                                                                                                                                                                                                                                                                                                                       | <https://github.com/laomms/PidKeyTool>                        |
+| PidKey（已停用，见上方说明）                 | 密钥检测工具. Tool for check Microsoft Product Key                                                                                                                                                                                                                                                                                                                                                       | <https://github.com/laomms/PidKeyTool>                        |
 | scoop install cyberapi                      | API tool based on tauri, it is smaller and faster                                                                                                                                                                                                                                                                                                                                                        | <https://github.com/vicanso/cyberapi>                         |
 | scoop install ysomap                        | A helpful Java Deserialization exploit framework                                                                                                                                                                                                                                                                                                                                                         | <https://github.com/wh1t3p1g/ysomap>                          |
 | scoop install vi/yakit                      | Cyber Security ALL-IN-ONE Platform                                                                                                                                                                                                                                                                                                                                                                       | <https://github.com/yaklang/yakit>                            |
@@ -172,7 +186,7 @@ scoop update vi/screentogif
 | scoop install java-echo-generator-release | 一款支持高度自定义的 Java 回显载荷生成工具| <https://github.com/pen4uin/java-echo-generator-release>|
 | scoop install dudesuite | Dude Suite Web 渗透测试工具| <https://github.com/x364e3ab6/DudeSuite>|
 | scoop install xjavafxtool | 基于JavaFx搭建的实用小工具集合，方便开发过程中的代码编写与调试，想学习javaFx的同学可以参考参考。其中包括文件复制、Cron表达式生成器、编码转换、加密解密、Time转换、路径转换、二维码生成工具、身份证生成器、正则表达式生成工具、网址缩短、转义字符、字符串转换、Mq调试工具、Http调试工具、json格式化编辑工具、图标生成工具、Redis连接工具、网页源码下载工具、切换Hosts工具、Ftp服务器、Cmd调试工具、Ftp/Ftps/Sftp客户端调试工具、Pdf转换工具、文件列表生成器、图片压缩工具、图片转码工具、Kafka调试工具、Email群发工具、颜色代码转换工具、短信群发工具、脚本引擎调试、文件重命名、Json转换、语音转换、Socket调试、图片解析、微信小程序反编译、Zookeeper操作、Excel拆分合并、文件夹监控、文件编码检测、传输、端口扫描、久坐提醒、随机数生成、剪贴板历史、文件搜索、mp3转换、印章生成等工具| <https://github.com/864381832/xJavaFxTool>|
-| scoop install ztasker | zTasker-定时 热键 计划任务| <http://www.everauto.net/cn/>|
+| zTasker（已停用，见上方说明） | zTasker-定时 热键 计划任务| <https://www.everauto.net/cn/>|
 | scoop install rogue_mysql_server | A rouge mysql server supports reading files from most mysql libraries of multiple programming languages| <https://github.com/rmb122/rogue_mysql_server>|
 | scoop install postcat | Postcat 是一个可扩展的 API 工具平台。集合基础的 API 管理和测试功能，并且可以通过插件简化你的 API 开发工作，让你可以更快更好地创建 API。An extensible API tool| <https://www.postcat.com>|
 | scoop install xterminal | 不仅是强大的SSH工具，更提供本地控制台，以及更多即将推出的开发相关功能，让您专注于创造卓越的代码| <https://www.terminal.icu/>|

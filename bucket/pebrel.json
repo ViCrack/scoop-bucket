@@ -1,13 +1,13 @@
 {
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows",
     "homepage": "https://github.com/Kuddev/pebrel",
     "license": "GPL-3.0-or-later",
     "notes": "config location: C:\\Users\\<your username>\\\\AppData\\\\Roaming\\Pebrel - https://github.com/vicrack/scoop-bucket/blob/master/bucket/pebrel.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuddev/pebrel/releases/download/v2.5.1/Pebrel-v2.5.1-windows-x64.zip",
-            "hash": "aeabe89f422c6b23ce10b79d873dc42386699fb921cba7f653f00094b1ce85cd"
+            "url": "https://github.com/Kuddev/pebrel/releases/download/v2.5.2/Pebrel-v2.5.2-windows-x64.zip",
+            "hash": "db1f3091bd9d21d717251999bd0992575966bbdd5901a79b191788527d60dc12"
         }
     },
     "shortcuts": [

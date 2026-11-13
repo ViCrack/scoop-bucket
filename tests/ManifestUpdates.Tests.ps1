@@ -54,3 +54,20 @@ Describe 'Official download page regressions' {
         $manifest.hash | Should -Be 'caf37da1cb5aa1f472fec4d093392141e14715d8a0285fcc4717f9ff76c1cc02'
     }
 }
+
+Describe 'Upstream asset renames' {
+    It 'keeps BlueTeamTools on the current release asset name' {
+        $manifest = Read-Manifest 'blueteamtools'
+        $manifest.autoupdate.url.Replace('$version', '5.11') | Should -Be 'https://github.com/abc123info/BlueTeamTools/releases/download/v5.11/BlueTeamToolsV5.11.zip'
+        $manifest.url | Should -Be $manifest.autoupdate.url.Replace('$version', $manifest.version)
+    }
+
+    It 'extracts the renamed frpc-desktop NSIS payload instead of the old app-64.7z' {
+        $manifest = Read-Manifest 'frpc-desktop'
+        $manifest.autoupdate.architecture.'64bit'.url.Replace('$version', '2.0.0') | Should -Be 'https://github.com/luckjiawei/frpc-desktop/releases/download/v2.0.0/Frpc-Desktop_2.0.0_x64-setup.exe#/dl.7z'
+        $preInstall = ($manifest.architecture.'64bit'.pre_install -join "`n")
+        $preInstall | Should -Not -Match 'app-64\.7z'
+        $preInstall | Should -Match 'frpc-desktop\.exe'
+        $manifest.shortcuts[0][0] | Should -Be 'Frpc-Desktop.exe'
+    }
+}

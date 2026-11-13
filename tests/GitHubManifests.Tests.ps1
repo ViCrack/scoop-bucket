@@ -198,3 +198,37 @@ public static class FakeJava {
         }
     }
 }
+
+Describe 'GitHub API checkver robustness' {
+    It '<Name> asks for the release list through checkver.github so checkver attaches the GitHub token' -TestCases @(
+        @{ Name = 'cyberapi' }
+        @{ Name = 'memshellparty' }
+        @{ Name = 'mitan' }
+        @{ Name = 'termix' }
+        @{ Name = 'trilium-cn' }
+    ) {
+        param($Name)
+        $manifest = Read-GitHubManifest $Name
+        # checkver 只在 checkver.github 模式下补 Authorization 头；写成 checkver.url 时请求是匿名的，
+        # runner 共享出口 IP 很快撞到 60 次/小时的上限并返回 403。
+        $manifest.checkver.url | Should -BeNullOrEmpty
+        $manifest.checkver.github | Should -Match '^https://api\.github\.com/repos/[^/]+/[^/]+/releases\?per_page=100$'
+        $manifest.checkver.script[0] | Should -Match '^if \(-not \$page\)'
+    }
+
+    It '<Name> skips the app instead of failing the whole run when GitHub returns no release data' -TestCases @(
+        @{ Name = 'cyberapi' }
+        @{ Name = 'memshellparty' }
+        @{ Name = 'mitan' }
+        @{ Name = 'termix' }
+        @{ Name = 'trilium-cn' }
+    ) {
+        param($Name)
+        $manifest = Read-GitHubManifest $Name
+        $json = $manifest
+        $page = $null
+        # 抓取失败时 $page 为 $null；抛出会让 checkver 整个退出 1，Excavator 因此变红。
+        { & ([scriptblock]::Create($manifest.checkver.script -join "`n")) } | Should -Not -Throw
+        ($(& { & ([scriptblock]::Create($manifest.checkver.script -join "`n")) } ) -join '') | Should -BeNullOrEmpty
+    }
+}

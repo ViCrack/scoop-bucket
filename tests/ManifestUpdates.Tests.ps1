@@ -71,3 +71,13 @@ Describe 'Upstream asset renames' {
         $manifest.shortcuts[0][0] | Should -Be 'Frpc-Desktop.exe'
     }
 }
+
+Describe 'BlueTeamTools launcher' {
+    It 'publishes the renamed jar from the 5.11 archive through the launcher' {
+        $manifest = Read-Manifest 'blueteamtools'
+        $preInstall = ($manifest.pre_install -join "`n")
+        # 上游 5.11 的 zip 里只有 BlueTeamToolsV<版本>.jar，旧写法引用的 BlueTeam_ABC_123.jar 已不存在
+        $preInstall | Should -Match 'BlueTeamToolsV\$version\.jar'
+        $preInstall | Should -Not -Match 'BlueTeam_ABC_123\.jar'
+    }
+}

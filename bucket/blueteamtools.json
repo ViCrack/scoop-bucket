@@ -31,7 +31,7 @@
         ")",
         "",
         "@pushd %~dp0",
-        "@start /B \"\" \"%jdk_path%javaw.exe\" -jar \"BlueTeam_ABC_123.jar\" %*",
+        "@start /B \"\" \"%jdk_path%javaw.exe\" -jar \"BlueTeamToolsV$version.jar\" %*",
         "@popd",
         "",
         "endlocal",

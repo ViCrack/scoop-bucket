@@ -1,4 +1,3 @@
-#Requires -Version 7.0
 # 公开仓库的防泄漏守卫：任何清单、脚本、工作流里都不允许出现真实凭据。
 $ErrorActionPreference = 'Stop'
 

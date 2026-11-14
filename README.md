@@ -251,3 +251,4 @@ scoop update vi/screentogif
 | scoop install open-vetta | Open-source, local-first AI agent for coding and real work. BYOK models, MCP, skills, plugins, workflows, and private knowledge bases| <https://www.openvetta.com>|
 | scoop install keysmith-switch-releases | Public updater artifacts for Keysmith Switch| <https://github.com/Jia-Ethan/keysmith-switch-releases>|
 | scoop install pebrel | AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows| <https://github.com/Kuddev/pebrel>|
+| scoop install saladict | 一个跨平台的划词翻译和OCR软件   A cross-platform software for text translation and recognition| <https://app.saladict.net>|

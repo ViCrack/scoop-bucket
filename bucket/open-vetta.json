@@ -1,13 +1,13 @@
 {
-    "version": "0.6.7",
+    "version": "0.6.9",
     "description": "Open-source, local-first AI agent for coding and real work. BYOK models, MCP, skills, plugins, workflows, and private knowledge bases",
     "homepage": "https://www.openvetta.com",
     "license": "Apache-2.0",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/open-vetta.json https://github.com/vicrack/scoop-bucket",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openvetta/open-vetta/releases/download/v0.6.7/Vetta-0.6.7-win-x64.zip",
-            "hash": "a41e358c7ec269585684b18bed6aa92986c70521c26c21a6e13dadb3a5e33a03"
+            "url": "https://github.com/openvetta/open-vetta/releases/download/v0.6.9/Vetta-0.6.9-win-x64.zip",
+            "hash": "f9ac74aabcfcef629c26920a79c386786ffd98847c2aa6acf6da6835d07de5ef"
         }
     },
     "shortcuts": [

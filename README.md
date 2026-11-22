@@ -252,3 +252,4 @@ scoop update vi/screentogif
 | scoop install keysmith-switch-releases | Public updater artifacts for Keysmith Switch| <https://github.com/Jia-Ethan/keysmith-switch-releases>|
 | scoop install pebrel | AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows| <https://github.com/Kuddev/pebrel>|
 | scoop install saladict | 一个跨平台的划词翻译和OCR软件   A cross-platform software for text translation and recognition| <https://app.saladict.net>|
+| scoop install maskit | 数据面具 Data Maskit — 专为大模型打造的本地隐私脱敏网关（请求自动打码，回复流式还原；支持 Cursor / Claude Code / Codex / Pi 等任意可配 Base URL 工具）| <https://github.com/xiaYuTian11/maskit>|
